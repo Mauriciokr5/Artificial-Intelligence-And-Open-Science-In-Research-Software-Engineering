@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Artificial-Intelligence And Open Science In Research
+  Software Engineering
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Roberto Mauricio
+    email: mauricio.ennui@gmail.com
+    family-names: Beltrán Vargas
+    affiliation: Universidad Poitécnica de Madrid
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7633222
+repository-code: >-
+  https://github.com/Mauriciokr5/Artificial-Intelligence-And-Open-Science-In-Research-Software-Engineering
+abstract: >-
+  Repository for the delivery of AI and Open Science
+  projects.
+keywords:
+  - open science
+  - artificial intelligence
+  - 'artificial '
+  - intelligence
+  - IA
+  - AI
+license: GPL-3.0
+commit: Hello World
+version: 0.0.1
+date-released: '2023-02-12'
