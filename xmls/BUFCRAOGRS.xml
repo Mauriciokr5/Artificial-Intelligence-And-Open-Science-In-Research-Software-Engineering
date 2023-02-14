@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">THE BOSTON UNIVERSITY-FIVE COLLEGE RADIO ASTRONOMY OBSERVATORY GALACTIC RING SURVEY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jackson</surname></persName>
+							<email>jackson@bu.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rathborne</surname></persName>
+							<email>rathborn@bu.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Shah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Simon</surname></persName>
+							<email>simonr@ph1.uni-koeln.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Bania</surname></persName>
+							<email>bania@bu.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Clemens</surname></persName>
+							<email>clemens@bu.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Chambers</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Dormody</surname></persName>
+							<email>mdormody@bu.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Lavoie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Heyer</surname></persName>
+							<email>heyer@astro.umass.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Institute for Astrophysical Research, Boston University, 725 Commonwealth Avenue, Boston, MA 02215;</note>
+								<orgName type="department">Institute for Astrophysical Research</orgName>
+								<orgName type="institution">Boston University</orgName>
+								<address>
+									<addrLine>725 Commonwealth Avenue</addrLine>
+									<postCode>02215</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Department of Astronomy, Lederle Graduate Research Tower, University of Massachusetts, Amherst, MA 01003;</note>
+								<orgName type="department">Department of Astronomy</orgName>
+								<orgName type="laboratory">Lederle Graduate Research Tower</orgName>
+								<orgName type="institution">University of Massachusetts</orgName>
+								<address>
+									<postCode>01003</postCode>
+									<settlement>Amherst</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">THE BOSTON UNIVERSITY-FIVE COLLEGE RADIO ASTRONOMY OBSERVATORY GALACTIC RING SURVEY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A1EFCB76AD356FBD844D5EF829E6379A</idno>
+					<note type="submission">Received 2005 September 16; accepted 2005 November 21</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3-SNAPSHOT" ident="GROBID" when="2023-02-13T23:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Galaxy</term>
+					<term>kinematics and dynamics -ISM</term>
+					<term>clouds -ISM</term>
+					<term>moleculesradio lines</term>
+					<term>general -surveys</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The Boston University-Five College Radio Astronomy Observatory Galactic Ring Survey is a new survey of Galactic 13 CO J ¼ 1 !</s><s>0 emission.</s><s>The survey used the SEQUOIA multipixel array on the Five College Radio Astronomy Observatory 14 m telescope to cover a longitude range of l ¼ 18 55N7 and a latitude range of jbj &lt; 1 , a total of 75.4 deg 2 .</s><s>Using both position-switching and On-The-Fly mapping modes, we achieved an angular sampling of 22 00 , better than half of the telescope's 46 00 angular resolution.</s><s>The survey's velocity coverage is À5 to 135 km s À1 for Galactic longitudes l 40 and À5 to 85 km s À1 for Galactic longitudes l &gt; 40 .</s><s>At the velocity resolution of 0.21 km s À1 , the typical rms sensitivity is (T Ã A ) $ 0:13 K.</s><s>The survey comprises a total of 1,993,522 spectra.</s><s>We show integrated intensity images (zeroth moment maps), channel maps, position-velocity diagrams, and an average spectrum of the completed survey data set.</s><s>We also discuss the telescope and instrumental parameters, the observing modes, the data reduction processes, and the emission and noise characteristics of the data set.</s><s>The Galactic Ring Survey data are available to the community online or in DVD form by request.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p><s>The Galactic distribution of molecular hydrogen was first deduced from early CO observations <ref type="bibr" target="#b2">(Burton et al. 1975;</ref><ref type="bibr" target="#b11">Scoville &amp; Solomon 1975)</ref>.</s><s>Surprisingly, the CO had a Galactocentric radial distribution distinct from that of atomic hydrogen.</s><s>In particular, the CO distribution in the northern hemisphere showed a large peak in the molecular gas density about midway between the Sun and the Galactic center.</s><s>Subsequent determinations of the face-on distribution of CO showed that this feature, dubbed the ''5 kpc ring,'' dominates the Galaxy's molecular gas structure <ref type="bibr" target="#b3">(Clemens et al. 1988)</ref>.</s></p><p><s>Most of the Galaxy's star formation activity takes place in the 5 kpc ring.</s><s>With a mass of 2 ; 10 9 M , the 5 kpc ring contains about 70% of all of the molecular gas inside the solar circle <ref type="bibr" target="#b3">(Clemens et al. 1988</ref>).</s><s>The ring is thus an enormous reservoir of material for the formation of new stars and clusters.</s><s>Indeed, most of the Galactic giant H ii regions, far-infrared luminosity, diffuse ionized gas, and supernova remnants are associated with the ring <ref type="bibr" target="#b1">(Burton 1976;</ref><ref type="bibr" target="#b9">Robinson et al. 1984)</ref>.</s></p><p><s>Because the 5 kpc ring dominates both the molecular interstellar medium (ISM) and the star formation activity in the Milky Way, it plays a crucial role in the dynamics, structure, and chemical evolution of our Galaxy.</s><s>Yet, despite its obvious importance, the 5 kpc ring has remained poorly understood, mostly due to the challenge of imaging such a large expanse of sky (several tens of square degrees) at good angular resolution and sensitivity.</s></p><p><s>Recent advances in millimeter-wave array technology now allow a comprehensive study of molecular gas in the 5 kpc ring.</s><s>In particular, the development of monolithic microwave integrated circuits (MMICs) has enabled the construction of large focal plane array receivers at millimeter wavelengths and a corresponding improvement in mapping speed.</s><s>Using such an array, we have conducted a new 13 CO J ¼ 1 !</s><s>0 molecular line survey of the inner Galaxy, the Boston University-Five College Radio Astronomy Observatory Galactic Ring Survey (GRS).</s></p><p><s>Although many previous surveys mapped the Galaxy in the main isotopic 12 CO J ¼ 1 !</s><s>0 transition, we have chosen to conduct the GRS in the 13 CO J ¼ 1 !</s><s>0 transition.</s><s>Because 13 CO is much less abundant than 12 CO J ¼ 1 !</s><s>0, the 13 CO transition has a smaller optical depth.</s><s>It is therefore a better column density tracer than 12 CO J ¼ 1 !</s><s>0.</s><s>Moreover, the smaller optical depths result in narrower line widths for 13 CO, and consequently, blended lines from two distinct clouds at similar velocities can be separated more cleanly.</s></p><p><s>In this paper, we describe the survey, the data reduction procedures, and the emission and noise characteristics of the data set.</s><s>Analyses of the survey will be published in future papers.</s><s>A study of molecular cloud structure using preliminary GRS data was presented in <ref type="bibr" target="#b12">Simon et al. (2001)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">THE SURVEY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Telescope, Receiver, and Backend Parameters</head><p><s>The GRS was conducted using the Five College Radio Astronomy Observatory (FCRAO) 14 m telescope located in New Salem, Massachusetts, between 1998 December and 2005 March.</s></p><p><s>The survey covers the region between 18 &lt; l &lt; 55N7 and jbj &lt; 1 .</s><s>At the 13 CO J ¼ 1 !</s><s>0 frequency ( 0 ¼ 110:2 GHz), the beamwidth of the FCRAO 14 m is 46 00 .</s></p><p><s>All observations were obtained using the single sideband focal plane array receiver SEQUOIA (Second Quabbin Optical Imaging Array; <ref type="bibr" target="#b6">Erickson et al. 1999)</ref>.</s><s>SEQUOIA employs lownoise MMIC based amplifiers.</s><s>Before 1999, the MMICs were InP, which provided a mean receiver noise temperature of 80 K.</s><s>After 1999, SEQUOIA was upgraded to InSb MMICs, which provided a mean receiver noise temperature of 60 K.</s></p><p><s>For the observing period 1998-2001, SEQUOIA contained 16 separate receiving elements.</s><s>These elements were arranged in a singly polarized 4 ; 4 array with a separation between elements of 88 00 on the sky.</s><s>In this observing period, SEQUOIA was used in combination with a spectrometer consisting of 16 autocorrelators.</s><s>Each autocorrelator had a bandwidth of 40 MHz, 512 channels, and a velocity sampling of 0.21 km s À1 .</s><s>The autocorrelators were centered at a velocity of 40 km s À1 and thus covered the velocity range À10 to 90 km s À1 .</s><s>This setup was sufficient to cover the local standard of rest (LSR) velocities<ref type="foot" target="#foot_1">2</ref> for most of the 13 CO emission for Galactic longitudes l &gt; 40 .</s></p><p><s>In 2002 January, a new autocorrelator, the dual channel correlator (DCC), was commissioned.</s><s>The DCC enabled the processing of two independent intermediate frequencies (IFs).</s><s>The DCC was configured to have a bandwidth of 50 MHz, 1024 channels, and a velocity sampling of 0.13 km s À1 for both of the IFs.</s><s>In order to provide enough velocity coverage to sample all Galactic 13 CO emission below Galactic longitudes of 40 , the two IFs were both tuned to the 13 CO transition but centered separately at LSR velocities of 20 and 100 km s À1 .</s><s>This setup provided 270 channels of overlap between the IFs and thus allowed us to generate a composite spectrum for each position on the sky with a total of 210 km s À1 bandwidth.</s><s>In 2002 March, SEQUOIA was upgraded from a 16 element array to a 32 element dual-polarization array with two IFs for each of the 32 detector elements.</s><s>The combination of the upgraded SEQUOIA and the DCC enabled processing of both IFs for each of the 32 pixels, resulting in 64 simultaneously observed spectra.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Pointing Checks</head><p><s>Pointing checks were conducted at the beginning of every observing session (typically lasting a total of 8 hr) using the SiO masers T Ceph or Cyg.</s><s>When the observing session extended beyond sunrise (April-May), additional pointing checks were also performed using the SiO maser R Cas.</s></p><p><s>The pointing offsets were determined using a five-point pattern and were adjusted iteratively to find the optimum pointing of the telescope.</s><s>When the fits to the pointing correction converged to 5 00 , no more pointing corrections were adopted.</s><s>At this point, the focus was then adjusted and a parabolic fit to the resultant intensities determined the optimal focus.</s><s>Once the optimal focus was achieved, the five-point pointing procedure was repeated.</s><s>We therefore estimate that the pointing accuracy is better than 5 00 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Selection of Emission-free Sky Positions</head><p><s>To account for millimeter wave emission from the sky, it is necessary to subtract the sky emission from a nearby ''off '' position from the spectrum of the source position.</s><s>Because the Galactic plane contains extended, strong 13 CO emission, we had to choose ''off '' positions carefully to avoid contaminating the source position with unwanted emission in the ''off '' position.</s></p><p><s>To select ''off '' positions with little or no 13 CO emission, we examined 12 CO J ¼ 1 !</s><s>0 maps from the Columbia/CfA survey in order to find positions as close as possible to the Galactic plane with little or no emission (T.</s><s>M. <ref type="bibr">Dame 1998, private communication)</ref>.</s><s>We then searched these potential emissionfree positions in 13 CO by position-switched observations against regions from the Columbia/CfA survey known to be free of emission in 12 CO J ¼ 1 !</s><s>0 to an rms noise level of 0.05 K (for 0.65 km s À1 velocity resolution).</s><s>For all but one position, no 13 CO emission was found toward the sky positions above a noise level of T mb ¼ 0:07 K.</s><s>One of the ''off '' positions, however, possesses a narrow 13 CO emission feature T Ã A $ 0:1 K at V LSR ¼ 15 km s À1 , affecting data in the range l ¼ 32N5 to 36 and b ¼ À0:5 to 0N8.</s><s>This contamination manifests itself as a negative spectral artifact feature in the final data set.</s><s>In total, 52 ''off '' positions were used for the GRS.</s><s>For each map we selected the nearest possible ''off '' position, which was typically &lt;2 from the source position in both Galactic longitude and latitude.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Observing Modes</head><p><s>The majority of the observations were conducted remotely.</s><s>Due to weather constraints, the observing season was typically limited to the months of November through May.</s><s>From the FCRAO, the lowest Galactic longitude covered by the GRS reached a maximum elevation of about 45 .</s><s>To avoid observations at high air mass, all GRS data were obtained at elevations &gt;29 .</s><s>To maintain uniform data quality, we did not observe if the system temperature exceeded 400 K.</s><s>The typical system noise temperatures were 200-300 K.</s></p><p><s>We employed three separate observing modes to map the Galactic 13 CO J ¼ 1 !</s><s>0 emission: position-switching with the 16-element SEQUOIA (1998 December-2001 May), On-The-Fly (OTF) mapping with the 16-element SEQUOIA (2002 January-March), and OTF mapping with the upgraded 32element SEQUOIA <ref type="bibr">(2002</ref><ref type="bibr">March-2005 March)</ref>.</s></p><p><s>In the position-switching mode, the data were obtained by stepping the array 22B14 in a 16 ; 16 grid (these grids were referred to as ''footprint'').</s><s>In this mode the Dewar containing the focal plane array receiver was rotated continuously to align the array in Galactic coordinates.</s><s>This scheme produced a fully sampled ''footprint'' map with a size of l ; b ¼ 5A9 ; 5A9.</s><s>Four consecutive array pointings shared the same emission-free ''off '' position.</s><s>Integration times per point for one on-source pointing ranged between 10 and 20 s, with 20 to 40 s spent on the emissionfree ''off '' position.</s><s>Most positions were observed twice to achieve the desired sensitivity.</s><s>The resulting spectra have an average 1 rms noise level T Ã A ¼ 0:20 K per 0.21 km s À1 channel.</s><s>In a typical 8 hr observing session, we covered $0.35 deg 2 .</s><s>Due to the limitations in the velocity coverage of the autocorrelators, the observations during this period were restricted to Galactic longitudes &gt;40 , where the velocity of the Galactic 13 CO emission is always &lt;85 km s À1 .</s><s>In the 2.5 yr using this mode, we mapped the region from l ¼ 40 to 51 and b ¼ À1 to 0N5 (16 deg 2 ; 21.2% of the entire survey).</s></p><p><s>In 2002 January, the OTF mapping mode was implemented on the FCRAO.</s><s>In this mode, the telescope is scanned across the sky and data are collected as the telescope moves.</s><s>Because the data storage, slew, and settling times are greatly reduced, data obtained in this mode have far less overhead and are consequently more efficiently collected.</s><s>Since in the OTF mode the SEQUOIA Dewar does not rotate to compensate for the field rotation, the mapped region is covered on a highly irregular yet very densely sampled grid.</s><s>This has several consequences.</s><s>In the central region of the OTF map, every pixel is scanned over every position in the map.</s><s>Compared to the position-switching mode, this redundancy enhances the data quality since pixel-topixel variations are averaged.</s><s>Artifacts due to gain and noise variations among pixels, therefore, are greatly reduced.</s><s>Toward the map edges, the coverage becomes less dense.</s><s>Therefore, the noise is only uniform in the inner, well-sampled part of the map and increases toward the map edges.</s><s>To compensate for this effect and achieve more uniform noise in the final data set, we overlapped many individual maps to cover the survey region.</s><s>The survey region in OTF mode was broken up into blocks of l ; b ¼ 6 0 ; 18 0 .</s><s>Each OTF map consisted of a single one of these blocks.</s><s>For each map, the telescope scanned in Galactic latitude at a rate of 0A35 s À1 in a raster pattern.</s><s>To sample the emission within the mapping region sufficiently, the array was offset by 0.75 of the beam (35 00 ) between scanning rows.</s><s>The data were read out at a frequency of 1 Hz as the telescope scanned so that 1 s integration time was spent on each of the 64 readouts (32 array elements, two velocity settings).</s><s>We integrated for 10 s on the emission-free ''off '' position, after every second row ($every 2 minutes).</s></p><p><s>Because we scanned the array during observations, the beam may be slightly elongated for the OTF data.</s><s>This will only affect the beam in the scanning direction and is estimated to be &lt;5% (&lt;2B3).</s></p><p><s>If weather permitted, in an 8 hr observing session we completed $20 OTF maps ($0.6 deg 2 ).</s><s>Within each observing session, the maps were chosen to span specific ranges in Galactic longitude depending on the local sidereal time, so that we were always obtaining data at high elevations and hence low system temperatures.</s></p><p><s>In the three months of using the OTF mode with the 16element SEQUOIA, we surveyed a total solid angle of 5.3 deg 2 (7.0% of the entire survey).</s><s>The spectra obtained in this mode have a mean 1 rms noise level T Ã A ¼ 0:18 K per 0.21 km s À1 channel.</s><s>From 2002 March, we used the upgraded 32-element SEQUOIA in the OTF mode.</s><s>We completed the remainder of the survey region in this mode, $54.1 deg 2 (71.8% of the entire survey).</s><s>These spectra have a mean 1 rms noise level T Ã A ¼ 0:13 K per 0.21 km s À1 channel.</s><s>For a more complete discussion of the noise, see x 5.2.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Flux Calibration</head><p><s>The spectra were calibrated using a vane to switch between emission from the sky and an ambient temperature load.</s><s>The calibration occurred before the start of each map and after every 10 rows during the map ($every 10 minutes).</s><s>This method of calibration produces typical errors in the temperature scale of 10%-15%.</s></p><p><s>To verify the system setup and to keep a record of the system performance over the duration of the survey, we obtained a single position-switched observation of W51 at the start of each observing session.</s><s>An analysis of these data show that the W51 peak brightness temperature showed an rms dispersion of $15%.</s><s>We use this value as an estimate of the accuracy of our flux scale.</s></p><p><s>All intensities are reported on the antenna temperature scale, T Ã A (K).</s><s>To convert antenna temperatures to main-beam brightness temperatures, the T Ã A values should be divided by the mainbeam efficiency mb of 0.48 derived from observations of planets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Data Reduction</head><p><s>The position-switched raw data were converted to CLASS 3 format.</s><s>Subsequent analysis was made with the CLASS software package.</s><s>Each ''footprint'' was processed individually.</s><s>To facilitate baseline removal, an average spectrum of each ''footprint'' was inspected to determine velocity ranges with significant emission to be excluded from the polynomial baseline fit.</s><s>Together with the order of the baseline fit, these velocity ''windows'' were altered until a suitable fit was achieved.</s><s>The polynomial order of the final baseline fit was typically first (linear) or second (parabolic).</s><s>The velocity windows and the baseline order were then applied to fit spectral baselines for each individual spectrum within the ''footprint.''</s></p><p><s>The OTF data were processed at FCRAO with the GUI based program OTFTOOL. 4 We used this program to regrid the irregularly sampled OTF data onto the same 22B14 grid as the position-switched data.</s><s>Each raw OTF spectrum was convolved onto a regular grid using a spatial kernel that minimized aliased noise power while retaining the full resolution of the telescope.</s><s>The kernel is 3 CLASS is part of the GILDAS package. 4</s><s>OTFTOOL was written by M.H. Heyer, G. Narayanan, and M. Brewer.</s><s>The resulting spectra for each IF were converted separately and stored in a single CLASS spectral file.</s><s>The next step in the data reduction process was to combine the spectra from the two IFs.</s><s>This was achieved by resampling the spectra on a common velocity grid and producing a composite spectrum by merging the spectra for the two IFs.</s><s>Data from À10 to 80 km s À1 from the first IF were merged with data from 45 to 140 km s À1 from the second IF.</s><s>For the OTF data, an average spectrum for a 0N3 ; 0N3 region was used to determine the velocity windows and baseline order (again, typically linear or parabolic), which were then applied to fit spectral baselines for each individual merged spectrum within the region.</s></p><formula xml:id="formula_0">J 1 (2ax) 2ax J 1 (cx=R max ) cx=R max e À ( 2bx ) 2 Å(R max )<label>ð1Þ</label></formula><p><s>The OTF data obtained with the higher velocity resolution (0.13 km s À1 ) were resampled to 0.21 km s À1 to match spectra from the position-switching mode.</s><s>All spectra were then assembled into three-dimensional data cubes (l, b, v) using CLASS routines.</s><s>These cubes were then converted into FITS format using routines within the GILDAS<ref type="foot" target="#foot_3">5</ref> package.</s><s>Routines written using the CFITSIO libraries were then used to merge the individual FITS cubes into the larger cubes that comprise the final data release.</s></p><p><s>The final data release contains 20 FITS cubes.</s><s>Eighteen of these cubes are l ; b ¼ 2 ; 2 , one is l ; b ¼ 1 ; 2 , and one is l ; b ¼ 0N7 ; 2 .</s><s>The 2 ; 2 data cubes are centered at even integral values of Galactic longitudes from 20 to 54 .</s><s>The 1 ; 2 cube is centered at a Galactic longitude of 18N5, and the 0N7 ; 2 cube is centered at a Galactic longitude of 55N35.</s><s>All cubes are centered in Galactic latitude at b ¼ 0 .</s><s>Cubes centered at Galactic longitudes 40 span a velocity range of V LSR ¼ À5 135 km s À1 , while cubes centered at Galactic longitudes &gt;40 span a velocity range of V LSR ¼ À5 85 km s À1 (in both cases the data within 5 km s À1 from the edge of the passband were discarded).</s><s>All cubes have identical channel widths of 0.21 km s À1 , but a different number of channels depending on whether the center Galactic longitude is 40 (659 channels) or &gt;40 (424 channels).</s><s>Although the cube centered at l ¼ 40 contains 659 velocity channels, for the region where 40 &lt; l &lt; 41 the velocity channels above 85 km s À1 are blank.</s><s>The complete survey contains $5 Gbytes of data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">COMPARISON TO PREVIOUS CO LINE SURVEYS</head><p><s>The GRS has mapped the Galactic plane in the 13 CO J ¼ 1 !</s><s>0 transition.</s><s>Unlike the optically thick 12 CO J ¼ 1 !</s><s>0 transition, which suffers from velocity crowding, the 13 CO J ¼ 1 !</s><s>0 transition has a lower optical depth and, therefore, narrower line widths. 13</s><s>CO thus allows both a better determination of column density and also a cleaner separation of velocity components.</s><s>Moreover, because of the improvement in mapping speed allowed by an array receiver, the GRS achieves halfbeam sampling.</s><s>Unlike most previous surveys of molecular emission, the GRS realizes the full resolution of the telescope.</s><s>Table <ref type="table" target="#tab_0">1</ref> compares the GRS to the previous CO surveys: the University of Massachusetts-Stony Brook survey (UMSB; <ref type="bibr" target="#b10">Sanders et al. 1986</ref>), the Bell Labs Survey <ref type="bibr" target="#b7">(Lee et al. 2001)</ref>, and the Columbia/CfA survey <ref type="bibr" target="#b5">(Dame et al. 1987</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">THE DATA</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Integrated Intensity Image</head><p><s>Figure <ref type="figure" target="#fig_0">1</ref> shows the integrated intensity image (zeroth moment map) of GRS 13 CO emission integrated over all velocities  (from V LSR ¼ À5 to 135 km s À1 for Galactic longitudes l 40 and V LSR ¼ À5 to 85 km s À1 for Galactic longitudes l &gt; 40 ).</s></p><p><s>The map was constructed using a masked moment procedure.</s><s>In this method, the intensity integrated over the specified velocity range toward each position of the map is not simply determined from the sum over all velocity channels.</s><s>Instead, for any given position (x, y) and velocity channel i, the value T i dv for that position is only included in the sum of the total integrated intensity if two conditions are met: (1) the value of both the central pixel and all 8 neighboring spatial pixels in the same velocity channel exceed the temperature threshold, and (2) the value of the central pixel and the 2 neighboring velocity pixels in adjacent channels also exceed the temperature threshold.</s><s>Details of the method are described by <ref type="bibr" target="#b0">Adler et al. (1992)</ref>.</s><s>For the GRS data, we used a temperature threshold of T Ã A ¼ 0:6 K.</s><s>This image reveals that most of the 13 CO molecular line emission is confined near b $ 0 with concentrations at l $ 23 and $31 (peak integrated intensities of 72 and 68 K km s À1 , respectively).</s><s>A large number of distinct clouds can be seen in the integrated intensity image.</s><s>The brightest of these correspond to well-known star-forming regions such as W51 and W49.</s><s>A striking aspect of the image is the abundance of filamentary and linear structures and the complex morphology of individual clouds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Channel Maps</head><p><s>Figure <ref type="figure" target="#fig_1">2</ref> shows channel maps that were made by integrating the 13 CO emission over 10 km s À1 velocity bins.</s><s>The channel maps separate emission features along the same line of sight into individual clouds.</s><s>In addition, individual clouds too faint to be prominent in the integrated intensity image often appear as obvious distinct features in the channel maps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Position-Velocity Diagram</head><p><s>Figure <ref type="figure" target="#fig_3">3</ref> shows the longitude-velocity (l-v) diagram of the GRS 13 CO emission.</s><s>This diagram was made by averaging the emission over the full coverage in Galactic latitude.</s><s>To show how the emission varies as a function of Galactic latitude, we have also made (l-v) diagrams over five ranges in latitude in steps of Áb ¼ 0N4 (Fig. <ref type="figure" target="#fig_4">4</ref>).</s></p><p><s>These position-velocity diagrams reveal large-scale features, especially the feature commonly called the ''molecular ring.''</s><s>We stress that bright regions in the (l-v) diagram arise from a complicated combination of the Galactic column density and the Galaxy's velocity field, and that the ''molecular ring'' may not represent a real ringlike feature.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Integrated Spectrum</head><p><s>Figure <ref type="figure">5</ref> shows the averaged 13 CO spectrum for the entire GRS.</s><s>Every position was averaged together with equal weighting to create this spectrum.</s><s>The effect is somewhat analogous to observing a portion of an external edge-on galaxy's disk with a single pixel.</s></p><p><s>The GRS detects 13 CO emission at every positive velocity allowed by Galactic rotation.</s><s>Nevertheless, distinct velocity features can still be recognized; for instance, the peak of the emission occurs at a velocity of about 57 km s À1 .</s><s>Whether these velocity features correspond to distinct physical structures or merely result from velocity crowding effects is the subject of future papers.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">DATA CHARACTERISTICS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Emission Characteristics</head><p><s>Figure <ref type="figure">6</ref> plots a histogram of the antenna temperature distribution for all independent (l, b, v) elements (''voxels'') in the GRS.</s><s>The inset shows the same plot but on a linear rather than logarithmic scale.</s><s>We also show a Gaussian fit to the distribution in the linear scale plot.</s><s>The fitted Gaussian peaks at 0.014 K and has a fullwidth at half-maximum of 0.29 K.</s></p><p><s>Purely random noise would produce a voxel distribution centered exactly at zero with a Gaussian shape.</s><s>Although a Gaussian fits the data fairly well, there is excess emission, especially in the wings of the distribution.</s><s>The positive excess reflects the presence of 13 CO emission.</s><s>The negative excess shows that a single noise temperature does not characterize the entire data set.</s><s>This may be due to variations in weather and elevation, different observing modes, weak emission in our ''off '' positions, the poor spatial sampling at the edge of the OTF maps, or additional systematic errors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Noise Characteristics</head><p><s>We made a two-dimensional image of the rms noise temperature, (T Ã A ), distribution throughout the GRS (Fig. <ref type="figure" target="#fig_5">7</ref>).</s><s>We plot a histogram of the rms noise temperature versus the number Fig. <ref type="figure">5</ref>.-Average spectrum for the entire GRS.</s><s>We see 13 CO emission at all positive velocities allowed by Galactic rotation, with many distinct peaks.</s></p><p><s>Fig. <ref type="figure">6</ref>.-Antenna temperature distribution of all (l, b, v) voxels in the GRS.</s><s>The inset shows the same distribution but on a linear rather than logarithmic scale.</s><s>The dash-dotted line is a Gaussian fit to the distribution (peak at 0.014 K and full width at half-maximum of 0.29 K). of (l, b) pixels with that noise temperature in Figure <ref type="figure" target="#fig_6">8</ref>. Once again, the inset shows the same plot but on a linear rather than logarithmic scale.</s><s>The rms noise temperatures were measured using the velocity region 130-135 km s À1 for Galactic longitudes l 40 and 80-85 km s À1 for Galactic longitudes l &gt; 40 in every spectrum.</s><s>We choose these velocities because they are usually emission-free toward all positions.</s><s>Toward a few positions, however, Galactic emission is seen.</s><s>Nevertheless, because this emission occupies a small fraction of the survey's total solid angle, it will not significantly affect the noise characteristics.</s></p><p><s>The noise distribution shows a sharp peak at (T Ã A ) $ 0:1 K.</s><s>In addition, a long tail extends to higher noise temperatures.</s></p><p><s>Again, this tail shows that the observations were taken under a variety of weather conditions, elevations and observing modes.</s><s>Consequently, the noise is not uniform for all positions.</s><s>We find that 25% of the positions have noise temperatures &lt;0.08 K, 50% &lt;0.10 K, and 75% &lt;0.13 K.</s><s>We will use the latter value as a typical sensitivity for the GRS.</s><s>Note that this value compares well to the dispersion of the antenna temperature (T Ã A ) ¼ 0:12 K for all voxels shown in Figure <ref type="figure">6</ref>.</s></p><p><s>To compare the noise characteristics of position-switched versus OTF data, we observed a small region of the survey from 40 l 40N1 and À0N3 b 0 in both modes.</s><s>Figure <ref type="figure" target="#fig_7">9</ref> plots the noise temperature in this region for both the positionswitched (dashed histogram) and OTF (solid histogram) data.</s><s>The improved sensitivity of the OTF data is evident.</s><s>The noise in the OTF data peaks at a (T Ã A ) ¼ 0:13 K.</s><s>The noise distribution of the position-switched data, however, peaks at a higher noise temperature of (T Ã A ) of 0.20 K.</s><s>The improvement of the OTF data over the position-switched data stems from the increased redundancy of this observing mode, which results in a larger effective integration time and reduced systematic noise sources.</s><s>Figure <ref type="figure" target="#fig_5">7</ref> also shows these differences.</s></p><p><s>Because several ''on'' positions share the same ''off '' position, the pixel-to-pixel noise is not independent but is instead correlated.</s><s>Thus, spatial averages of the data will not reduce the noise as the square root of the number of pixels.</s><s>The degree to which the noise is correlated depends on the observing mode.</s><s>In position-switched mode, each position is observed by only a single pixel and the array is stepped during observations such that the same array element observes four adjacent pixels for each ''off '' position.</s><s>These pixels will therefore have correlated noise.</s><s>Moreover, in the position-switched mode we step the array by multiples of the array size while mapping.</s><s>Consequently, noise or gain patterns across the array will repeat on these spatial scales.</s><s>Thus, we expect correlated noise at spatial fre-quencies corresponding to multiples of the array size.</s><s>In the OTF mode, however, the array is scanned such that a single position is observed by multiple pixels.</s><s>In this mode two adjacent rows share a common ''off '' position and correlated noise will appear at these spatial frequencies.</s><s>Figures <ref type="figure" target="#fig_8">10</ref> and<ref type="figure" target="#fig_9">11</ref> show these effects.</s></p><p><s>In Figure <ref type="figure" target="#fig_8">10</ref>, the noise images for small representative regions are shown for both OTF and position-switched modes, together with their corresponding power spectra (the square of the two-dimensional Fourier transform).</s><s>As expected, the large number of faint but sharp peaks in the power spectrum for the position-switched data correspond to the spatial frequencies of multiples of the SEQUOIA array size.</s><s>In the OTF data, however, these features are essentially absent.</s><s>Instead, we see a faint peak in the power spectrum at spatial frequencies corresponding to every second row.</s></p><p><s>Figure <ref type="figure" target="#fig_9">11</ref> shows the two power spectra of Figure <ref type="figure" target="#fig_8">10</ref> averaged over Galactic longitudes and latitudes.</s><s>In the position-switched data correlated noise is seen in both directions because the array was stepped in both Galactic longitude and latitude.</s><s>In the OTF data, however, the correlated noise due to shared ''off'' positions, the small peak at spatial frequencies of $40 deg À1 , appears only in the scan direction (Galactic latitude).</s><s>Moreover, because OTF data average over several pixels, the correlated noise is much smaller.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">DATA RELEASE</head><p><s>The GRS data are available online. <ref type="foot" target="#foot_5">6</ref></s><s>The data can be obtained either by requesting a DVD of the complete survey or by using our online interface.</s><s>The web page shows the Figure <ref type="figure" target="#fig_0">1</ref> integrated intensity image.</s><s>One may access any specific FITS data cube by clicking on this image.</s><s>This action selects the nearest integrated intensity image and a link to download both the corresponding FITS data cube and integrated intensity image.</s></p><p><s>For users interested in smaller regions, or particular molecular complexes, we also offer an interface to select any (l, b, v) region within the survey.</s><s>One can either enter the required range in Galactic longitude, Galactic latitude, and velocity, or a central position in (l, b, v) and a size.</s><s>Due to file size limitations, the maximum Galactic longitude range one can select is 2 .</s><s>By default, the full velocity range for a given region in the survey is returned if no velocity range is entered.</s><s>For input regions that overlap two data cubes, the interface will locate the relevant cubes, extract the region of interest, and generate a new cube.</s><s>A link is then provided to download the FITS data cube.</s><s>We also provide a link to bypass the interactive process and download individual data cubes by name.</s><s>In addition, we offer several simple IDL procedures to aid users with common visualization and processing tasks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">SAMPLE IMAGES AND SPECTRA</head><p><s>The quality of GRS data can be seen in Figure <ref type="figure" target="#fig_10">12</ref>, which shows examples of images and spectra toward five distinct regions that span a range of total molecular column density.</s><s>For each region, we display a moment map and several representative spectra.</s><s>The spectra typically have several velocity components, which indicate that several distinct molecular clouds lie along the line of sight.</s></p><p><s>In Figure <ref type="figure" target="#fig_11">12a</ref>, a region at low Galactic longitude is shown.</s><s>Since the low longitudes were observed at low elevations, these data suffer from the highest system temperatures due to atmospheric extinction.</s><s>Nevertheless, the moment map and spectra are not significantly compromised.</s><s>Figures <ref type="figure" target="#fig_11">12b</ref> and<ref type="figure" target="#fig_11">12c</ref> show very crowded regions toward the molecular ring.</s><s>Figure <ref type="figure" target="#fig_11">12d</ref> is a region with relatively faint 13 CO emission (note that there is some faint 13 CO emission in the ''off '' beam at a V LSR $ 12 km s À1 ).</s><s>Finally, Figure <ref type="figure" target="#fig_11">12e</ref> shows one of the brightest star-forming regions, W51.</s><s>The images reveal that the GRS has excellent dynamic range, and the spectra show that the baselines are well characterized and most of the ''off '' positions are emission-free.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">SUMMARY</head><p><s>Using the SEQUOIA multipixel array on the FCRAO 14 m telescope, we conducted the GRS, a new survey of Galactic 13 CO J ¼ 1 !</s><s>0, emission.</s><s>The GRS mapped Galactic longitudes of 18 &lt; l &lt; 55N7 and Galactic latitudes of jbj &lt; 1 .</s><s>The LSR velocity range surveyed is À5 to 135 km s À1 for Galactic longitudes l 40 and À5 to 85 km s À1 for Galactic longitudes l &gt; 40 .</s><s>The survey achieved better than half-beam angular sampling (22 00 grid; 46 00 angular resolution).</s><s>For the position-switched data, the peaks in both directions correspond to multiples of the array size.</s><s>In contrast, the OTF data show smaller correlated noise, and also a small peak at $40 deg À1 in the latitude plot due to the sharing of ''off '' positions in the scanning direction.</s><s>We have described the telescope and instrumental parameters, the observing modes, the flux calibration, the data reduction processes, and the emission and noise characteristics of the data set.</s><s>The typical sensitivity of the GRS data is (T Ã A ) $ 0:13 K per 0.21 km s À1 velocity channel.</s><s>However, because the survey employed both position-switching and OTF mapping modes, and observations were conducted under a variety of weather conditions, elevations, and instrument upgrades, the noise varies across the surveyed region and thus cannot be well characterized by a single noise temperature.</s><s>Since survey maps shared common ''off '' positions for several ''on'' positions, we see correlated noise at certain spatial frequencies.</s><s>This correlated noise is more problematic for the position-switching data.</s></p><p><s>The GRS data are available to the community online (see footnote 6).</s><s>At this Web site the entire data set can be obtained in the form of FITS data cubes.</s><s>Users can also obtain selected subsets of the data through a simple interface.</s><s>The Web site also contains a few IDL procedures for simple, common processing tasks.</s></p><p><s>The large advance in angular sampling and sensitivity afforded by SEQUOIA on the FCRAO 14 m telescope makes the GRS an excellent new data set for studies of molecular clouds, star-forming regions, and Galactic structure.</s></p><p><s>We gratefully acknowledge observing help from Loren Anderson, Emily Flynn, Ori Fox, Dovie Holland, James Kim, Michal Kolpak, Ida Kubiszewski, Casey Law, Kristy McQuinn, Mike Martin, Courtney Morris, David Nero, Holly Naylor, Kelsy Rogers, and Todd Veach.</s><s>We also wish to thank the following people at FCRAO: Peter Schloerb, Neal Erickson, Gopal Narayanan, and Michael Brewer.</s><s>The GRS is a joint project of Boston University and Five College Radio Astronomy Observatory, funded by the National Science Foundation under grants AST 98-00334, AST 00-98562, AST 01-00793, AST 02-28993, and AST 05-07657.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Facilities: FCRAO</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.-Integrated intensity image (zeroth-moment map) of GRS 13 CO emission integrated over all velocities (V LSR ¼ À5 to 135 km s À1 for Galactic longitudes l 40 and V LSR ¼ À5 to 85 km s À1 for Galactic longitudes l &gt; 40 ).</s><s>The image shows that most of the emission is confined to b $ 0 , with concentrations at l $ 23 and $31 .</s><s>A striking aspect of the image is the abundance of filamentary and linear structures and the complex morphology of individual clouds.</s><s>The image is in units of K km s À1 .</s></p></div></figDesc><graphic coords="4,100.63,339.79,600.38,99.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2.-Channel maps of GRS 13 CO emission.</s><s>The maps were made by integrating the emission over 10 km s À1 velocity bins.</s><s>The image units are in K km s À1 .</s><s>The top image shows the integrated intensity image from Fig. 1 for comparison.</s><s>The velocity range of each image is labeled.</s><s>The channel maps clearly separate emission features along the same line of sight.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc><div><p><s>Fig. 2.-Continued</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3.-Position-velocity (l-v) diagram of GRS 13 CO emission, made by averaging over all Galactic latitudes (jbj &lt; 1 ).</s><s>Clearly evident are the large-scale Galactic features especially the molecular ring (the approximate location is marked).</s><s>The image units are in K.</s></p></div></figDesc><graphic coords="7,101.51,67.39,414.00,208.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4.-Position-velocity (l-v) diagram of GRS 13 CO emission averaged over five ranges in Galactic latitude.</s><s>The latitude coverage of each image is labeled.</s><s>The image units are in K.</s></p></div></figDesc><graphic coords="8,139.92,568.80,355.81,118.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7.-Image of the rms noise temperature, (T Ã A ), for the entire GRS.</s><s>The image units are in K.</s><s>The noise temperatures were determined using data from 130 to 135 km s À1 for l 40 and from 80 to 85 km s À1 for l &gt; 40 .</s><s>The compact features are artifacts due to emission at these velocities.</s><s>The noise patterns differ for the different observing modes.</s></p></div></figDesc><graphic coords="10,119.97,219.72,370.30,61.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8.-Histogram of the rms noise temperature, (T Ã A ), for all (l, b) positions in the GRS.</s><s>The rms noise temperatures were determined using data from 130 to 135 km s À1 for l 40 and from 80 to 85 km s À1 for l &gt; 40 .</s><s>The inset shows the same histogram but on a linear rather than logarithmic scale.</s><s>The data are binned by 0.01 K intervals.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .</head><label>9</label><figDesc><div><p><s>Fig. 9.-Comparison of the rms noise temperature, (T ÃA ), for OTF and position-switched data.</s><s>For the comparison, we use a small region of the survey (40 l 40N1 and À0N3 b 0 ) that was observed in both of these modes.</s><s>The improved sensitivity of the OTF data (peak at 0.13 K) compared to the position-switched data (peak at 0.20 K) is clearly evident.</s><s>The data are binned by 0.01 K intervals.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10</head><label>10</label><figDesc><div><p><s>Fig. 10.-Upper panel: Images of the rms noise temperature for small selected regions of the GRS for the OTF (left) and position-switched modes (right).</s><s>Lower panel: Two-dimensional power spectra of the corresponding noise images.</s></p></div></figDesc><graphic coords="11,164.97,302.92,143.40,143.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 11 .</head><label>11</label><figDesc><div><p><s>Fig. 11.-Power spectra of Fig. 10 averaged over Galactic latitudes (left) and longitudes (right).</s><s>Peaks in this figure represent the correlated noise at certain spatial frequencies.For the position-switched data, the peaks in both directions correspond to multiples of the array size.</s><s>In contrast, the OTF data show smaller correlated noise, and also a small peak at $40 deg À1 in the latitude plot due to the sharing of ''off '' positions in the scanning direction.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 12</head><label>12</label><figDesc><div><p><s>Fig. 12.-Integrated intensity images and sample spectra toward five regions within the GRS.</s><s>The spectra typically show several distinct velocity components, an indication that several distinct molecular clouds lie along the line of sight.</s><s>The location of each spectrum within the region is labeled on the image (A, B, and C).</s><s>The transfer function is such that the following colors correspond to the following integrated intensities: black, 1 K km s À1 ; green, 20 K km s À1 ; red, 45 K km s À1 ; and white, 100 K km s À1 .</s></p></div></figDesc><graphic coords="13,132.46,514.23,204.10,184.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12</head><label>12</label><figDesc><div><p><s>Fig. 12.-Continued</s></p></div></figDesc><graphic coords="14,132.56,300.16,190.48,167.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 A</head><label>1</label><figDesc><div><p><s>Comparison of CO Surveys of the First Galactic Quadrant Dates .............................................................. ¼ 1 !</s><s>0).................................. À1 ) ......................... Latitude coverage (deg) ................................. À1 ) ........................ Number of spectra ......................................... Total survey region (deg 2 ).............................</s></p></div></figDesc><table><row><cell>Survey</cell><cell>GRS</cell><cell>UMSB a</cell><cell>Bell Labs b</cell><cell>Columbia /CfA c</cell></row><row><cell></cell><cell>1998-2005</cell><cell>1981-1984</cell><cell>1978-1992</cell><cell>1980-</cell></row><row><cell cols="2">Transition (J 13 CO</cell><cell>12 CO</cell><cell>13 CO</cell><cell>12 CO</cell></row><row><cell>T Ã R sensitivity per km s À1 channel ( K) .........</cell><cell>0.27</cell><cell>0.40</cell><cell>0.1</cell><cell>0.18</cell></row><row><cell cols="2">Velocity resolution ( km s 0.21</cell><cell>1.0</cell><cell>0.68</cell><cell>0.65</cell></row><row><cell>Longitude coverage (deg)..............................</cell><cell>18 to 55.7</cell><cell>8 to 90</cell><cell>À5 to 117</cell><cell>10 to 70</cell></row><row><cell></cell><cell>À1 to 1</cell><cell>À1.05 to 1.05</cell><cell>À1 to 1</cell><cell>À6 to 6</cell></row><row><cell cols="2">LSR velocity range ( km s À5 to 135</cell><cell>À100 to 200</cell><cell>À250 to 250</cell><cell>À140 to 140</cell></row><row><cell>Angular resolution (arcsec)............................</cell><cell>46</cell><cell>45</cell><cell>103</cell><cell>450</cell></row><row><cell>Angular sampling (arcsec).............................</cell><cell>22</cell><cell>180</cell><cell>180</cell><cell>225-450</cell></row><row><cell></cell><cell>1,993,522</cell><cell>40,551</cell><cell>73,000</cell><cell>54,000</cell></row><row><cell></cell><cell>75.4</cell><cell>172.2</cell><cell>244</cell><cell>660</cell></row></table><note><p><s>Dame et al. (2001)86)(1986).bFromLeeetal.</s><s>(2001).cFromDame</s><s>et al. (2001).</s></p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0">Present address: I.Physikalisches Institut, Universita ¨t zu Ko ¨ln, Zu ¨lpicher Strasse 77, 50937 Ko ¨ln, Germany.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1">To deduce our LSR velocity scale we used the IAU J2000.0 standards for the solar motion with respect to the LSR of ¼ 271 and ¼</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30" xml:id="foot_2">. For consistency with previous FCRAO observations, we use V ¼ 20 km s À1 rather than the IAU standard of V ¼ 19:4 km s À1 .</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_3">The GILDAS working group is a collaborative project of the Observatoire de Grenoble and Institut de Radio Astronomie Millimetrique (IRAM ), and comprises: G. Buisson, L. Desbats, G. Duvert, T. Forveille, R. Gras, S. Guilloteau, R. Lucas, and P. Valiron.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4">Vol. 163   </note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5">See http://www.bu.edu /galacticring. The Boston University Astronomy Department is committed to support Web access to the Galactic Ring Survey data set for a period of no less than 20 years (through 2026).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6">No. 1, 2006   </note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A completely sampled aperture synthesis map of the CO emission in M51</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">S</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Melvyn</forename><forename type="middle">C H</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gustav</forename><surname>Rydbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raymond</forename><forename type="middle">L</forename><surname>Plante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">J</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/171450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page">497</biblScope>
+			<date type="published" when="1992-06">1992</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adler, D. S., Lo, K. Y., Wright, M. C. H., Rydbeck, G., Plante, R. L., &amp; Allen, R. J. 1992, ApJ, 392, 497</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Burton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ARA&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">275</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burton, W. B. 1976, ARA&amp;A, 14, 275</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The overall distribution of carbon monoxide in the plane of the Galaxy</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Bania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Lockman</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/153950</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="1975-11">1975</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burton, W. B., Gordon, M. A., Bania, T. M., &amp; Lockman, F. J. 1975, ApJ, 202, 30</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The large-scale distribution of molecular gas in the first Galactic quadrant</title>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">P</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">B</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">Z</forename><surname>Scoville</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/166177</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="page">139</biblScope>
+			<date type="published" when="1988-04">1988</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clemens, D. P., Sanders, D. B., &amp; Scoville, N. Z. 1988, ApJ, 327, 139</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Milky Way in Molecular Clouds: A New Complete CO Survey</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Dame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dap</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thaddeus</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/318388</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">547</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="792" to="813" />
+			<date type="published" when="2001-02">2001</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dame, T. M., Hartmann, D., &amp; Thaddeus, P. 2001, ApJ, 547, 792</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A composite CO survey of the entire Milky Way</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Dame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ungerechts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>De Geus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Grenier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-A</forename><surname>Nyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thaddeus</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/165766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page">706</biblScope>
+			<date type="published" when="1987-11">1987</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dame, T. M., et al. 1987, ApJ, 322, 706</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A cryogenic focal plane array for 85-115 GHz using MMIC preamplifiers</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Grosslein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weinreb</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/22.808962</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Microwave Theory and Techniques</title>
+		<title level="j" type="abbrev">IEEE Trans. Microwave Theory Techn.</title>
+		<idno type="ISSN">0018-9480</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2212" to="2219" />
+			<date type="published" when="1999">1999</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erickson, N. R., Grosslein, R. M., Erickson, R. B., &amp; Weinreb, S. 1999, IEEE Trans. Microwave Theory Techniques, 47, 2212</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Bell Laboratories &lt;sup&gt;13&lt;/sup&gt; CO Survey: Longitude‐Velocity Maps</title>
+		<author>
+			<persName><forename type="first">Youngung</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antony</forename><forename type="middle">A</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyun‐goo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dae‐sik</forename><surname>Moon</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/321790</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal Supplement Series</title>
+		<title level="j" type="abbrev">ASTROPHYS J SUPPL S</title>
+		<idno type="ISSN">0067-0049</idno>
+		<idno type="ISSNe">1538-4365</idno>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="137" to="187" />
+			<date type="published" when="2001-09">2001</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Y., Stark, A. A., Kim, H., &amp; Moon, D. 2001, ApJS, 136, 137</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Imaging at Radio through Submillimeter Wavelengths</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">G</forename><surname>Mangum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Emerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Greisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/316430</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Publications of the Astronomical Society of the Pacific</title>
+		<title level="j" type="abbrev">PUBL ASTRON SOC PAC</title>
+		<editor>J. E. Mangum &amp; S. J. E. Radford</editor>
+		<idno type="ISSN">0004-6280</idno>
+		<idno type="ISSNe">1538-3873</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">763</biblScope>
+			<biblScope unit="page" from="1190" to="1192" />
+			<date type="published" when="2000">2000</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mangum, J., Emerson, D., &amp; Greisen, E. 2000, in ASP Conf. Ser. 217, Imaging at Radio through Submillimeter Wavelengths, ed. J. E. Mangum &amp; S. J. E. Radford (San Francisco: ASP), 179</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The distribution of CO in the Galaxy for longitudes 294 deg to 86 deg</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Manchester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Whiteoak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Z</forename><surname>Scoville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Mccutcheon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Solomon</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/184327</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page">L31</biblScope>
+			<date type="published" when="1984-08">1984</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robinson, B. J., Manchester, R. N., Whiteoak, J. B., Sanders, D. B., Scoville, N. Z., Clemens, D. P., McCutcheon, W. H., &amp; Solomon, P. M. 1984, ApJ, 283, L31</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Z</forename><surname>Scoville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanders, D. B., Clemens, D. P., Scoville, N. Z., &amp; Solomon, P. M. 1986, ApJS, 60, 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Molecular clouds in the Galaxy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Z</forename><surname>Scoville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Solomon</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/181859</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">L105</biblScope>
+			<date type="published" when="1975-07">1975</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scoville, N. Z., &amp; Solomon, P. M. 1975, ApJ, 199, L105</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Structure of Four Molecular Cloud Complexes in the BU‐FCRAO Milky Way Galactic Ring Survey</title>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">P</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Bania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">H</forename><surname>Heyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/320230</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<title level="j" type="abbrev">ApJ</title>
+		<idno type="ISSN">0004-637X</idno>
+		<idno type="ISSNe">1538-4357</idno>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="747" to="763" />
+			<date type="published" when="2001-04-20">2001</date>
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simon, R., Jackson, J. M., Clemens, D. P., Bania, T. M., &amp; Heyer, M. H. 2001, ApJ, 551, 747</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

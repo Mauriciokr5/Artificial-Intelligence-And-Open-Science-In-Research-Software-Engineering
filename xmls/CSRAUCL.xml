@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Controlling Soft Robotic Arms Using Continual Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+				<availability status="unknown"><p>Copyright Institute of Electrical and Electronics Engineers (IEEE)</p>
+				</availability>
+				<date type="published" when="2022-04">2022-04</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Francesco</forename><surname>Pique</surname></persName>
+							<idno type="ORCID">0000-0002-9101-0428</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Hari</forename><forename type="middle">Teja</forename><surname>Kalidindi</surname></persName>
+							<email>hari.kalidindi@uclouvain.be</email>
+							<idno type="ORCID">0000-0003-2634-7953</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Lorenzo</forename><surname>Fruzzetti</surname></persName>
+							<email>lorenzo.fruzzetti@santannapisa.it</email>
+						</author>
+						<author>
+							<persName><forename type="first">Cecilia</forename><surname>Laschi</surname></persName>
+							<idno type="ORCID">0000-0001-5248-1043</idno>
+						</author>
+						<author>
+							<persName><roleName>Senior Member, IEEE</roleName><forename type="first">Arianna</forename><surname>Menciassi</surname></persName>
+							<email>arianna@sssup.it</email>
+							<idno type="ORCID">0000-0001-6348-1081</idno>
+						</author>
+						<author>
+							<persName><roleName>Member, IEEE</roleName><forename type="first">Egidio</forename><surname>Falotico</surname></persName>
+							<email>e.falotico@santannapisa.it</email>
+							<idno type="ORCID">0000-0001-8060-8080</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>Falotico are with the The BioRobotics Insitute, </orgName>
+								<address><addrLine>Scuola Superiore Sant&apos;Anna, 56025 Pisa, Italy Scuola Superiore Sant&apos;Anna, 56127 Pisa, Italy Scuola Superiore Sant&apos;Anna, 56025 Pisa, Italy Scuola Superiore Sant&apos;Anna, 56127 Pisa, Italy, Louvain-la-Neuve, Belgium, Louvain-la-Neuve, Belgium 119077, Singapore</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Department of Excellence in Robotics and AI, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> The BioRobotics Insitute, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Department of Excellence in Robotics and AI, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Institute of Communication Technologies, Electronics and Applied Mathematics, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Institute of Neuroscience, Université Catholique deLouvain, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Department of Mechanical Engineering, National University of Singapore Singapore</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Controlling Soft Robotic Arms Using Continual Learning</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">IEEE Robotics and Automation Letters</title>
+						<title level="j" type="abbrev">IEEE Robot. Autom. Lett.</title>
+						<idno type="eISSN">2377-3774</idno>
+						<imprint>
+							<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="5469" to="5476"/>
+							<date type="published" when="2022-04" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">6291FE5C447831B56D0DAE6A08B87563</idno>
+					<idno type="DOI">10.1109/lra.2022.3157369</idno>
+					<note type="submission">received October 11, 2021; accepted February 8, 2022. Date of publication March 8, 2022; date of current version March 17, 2022.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3-SNAPSHOT" ident="GROBID" when="2023-02-13T23:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Modeling</term>
+					<term>control</term>
+					<term>and learning for soft robots</term>
+					<term>learning and adaptive systems</term>
+					<term>soft robot applications</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Learning-based modeling and control of soft robots is advantageous due to neural network's ability to capture complex dynamical effects with low computational cost.</s><s>Continual Learning techniques add further value to these methods by allowing networks to learn from continuously available data without incurring into catastrophic forgetting.</s><s>In the context of soft robotic control, such capability can be exploited to design controllers able to continuously adapt to changes in robot dynamics, frequently due to material degradation or external interactions.</s><s>This should be done without forgetting the control under normal working conditions which can be recovered as soon as the external interactions return to normal.</s><s>In this letter elastic weight consolidation is used to continuously re-tune a neural network-based controller while changing the external loading of a soft robot.</s><s>We demonstrate experimentally on a soft robot arm that this method outperforms plain stochastic gradient descent in tracking tasks, in the context of a continuously changing loading condition.</s><s>We also show that the proposed control architecture can improve its performances when exposed to loading conditions already experienced.</s><s>This letter represents a first step towards the introduction of continual learning methods in the soft robot control field.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>as in pneumatic actuators, or exerted to a specific section of the backbone, such as in cable driven soft manipulators.</s></p><p><s>Unlike rigid-link robots, which have been thoroughly studied and modeled with closed form equations and with a finite number of parameters, soft and continuum robots are hard to model due to the non linearity of the materials and to the absence of joints and links that can be used to derive their kinematics in the classical sense <ref type="bibr" target="#b0">[1]</ref>.</s><s>The modeling complexity associated to soft robots makes them also difficult to control.</s><s>Moreover, soft robots typically lack the richness in sensors of rigid robots, resulting in systems harder to control and making sensorization of soft robots an open research field <ref type="bibr" target="#b1">[2]</ref>.</s><s>Although analytical dynamic models of soft robot exist <ref type="bibr" target="#b2">[3]</ref>, their complexity and computational costs have led to the research of assumptions to simplify the control.</s></p><p><s>Soft robots have been most successfully and frequently controlled by employing a constant-curvature (CC) model, which assumes a constant curvature on all the length of the soft manipulator.</s><s>This allows steady-state control with low computational cost <ref type="bibr" target="#b3">[4]</ref>.</s><s>By considering the soft robot backbone as multiple constant-curvature sections the piecewise constant-curvature model (PCC) is achieved <ref type="bibr" target="#b4">[5]</ref>.</s><s>In <ref type="bibr" target="#b5">[6]</ref> the PCC model is augmented and matched to a dynamically consistent rigid robot model enabling dynamic soft robot control.</s><s>However the CC and PCC models themselves are kinematic and do not consider the dynamics of a soft manipulator.</s><s>Similarly, they are optimal only when the manipulator is not subject to external disturbances.</s><s>These problems can be avoided by exploiting machine learning in the modeling of the soft robot.</s><s>Approximating the soft robot kinematics <ref type="bibr" target="#b6">[7]</ref> and dynamics <ref type="bibr" target="#b7">[8]</ref> with learning approaches is a feasible and useful solution since it does not require a priori analytical knowledge of the manipulator dynamics.</s><s>Supervised learning has also been proven effective in learning neural network-based controllers for soft robots <ref type="bibr" target="#b8">[9]</ref>.</s><s>In <ref type="bibr" target="#b9">[10]</ref>, an ANN is used to approximate the input-output relation of a cable driven soft robot.</s><s>The obtained forward model is differentiated to compute an integral controller, with proof of robustness and stability.</s><s>In <ref type="bibr" target="#b10">[11]</ref> the authors use a machine learning approach to estimate the relationship between motor inputs and end-effector position output of a soft robot and employ trajectory optimization to perform quasi static tracking in open loop.</s><s>These methods however are usually tailored to a specific task and do not take into account changes in robot dynamics or external loads.</s><s>Other approaches have taken external loading conditions into account by involving the linearization of nonlinear dynamical systems by means of Koopman operator theory <ref type="bibr" target="#b11">[12]</ref>, or by reinforcement learning methods <ref type="bibr" target="#b12">[13]</ref>.</s></p><p><s>In fact, typical of soft robots is that their dynamics are subject to change, by degradation and hysteresis of the materials of their bodies or of their actuators.</s><s>Moreover, especially in tasks where the robot must squeeze in tiny openings, it is subject to unknown external forces and torques which, while being mathematically tractable in rigid-link robots, introduce further complications in exact soft robot modeling and also invalidate the assumptions for CC and PCC models.</s><s>Such interaction forces should also be estimated which constitutes a further challenge.</s><s>Importantly, the changes in dynamics may not be permanent and the robot may return to its original working conditions.</s><s>To overcome these limitations, Continual Learning (CL) techniques are of great interest since they allow network-based control methods to re-update their parameters, provided a stream of data <ref type="bibr" target="#b13">[14]</ref>.</s><s>By using CL techniques it is possible for a neural network to learn continuously by means of incrementally available data without causing interference and catastrophic forgetting of previously learnt tasks <ref type="bibr" target="#b14">[15]</ref>.</s><s>CL techniques can ensure that when the robot returns to its original working conditions, the task can still be performed with low error with minimal or no retraining.</s><s>In this work, we model the dynamics of a soft robot arm with a recurrent neural network by means of supervised learning and we learn a controller on top of the dynamic model with a multi-layer perceptron (MLP).</s><s>Then we exploit CL techniques to update the weights of the controller, that is used to track a circular endeffector trajectory with different external loading conditions.</s><s>We have chosen to use elastic weight consolidation (EWC) in this work <ref type="bibr" target="#b15">[16]</ref> since it is a simple CL technique which does not imply neural network growth or expansive storage of data.</s><s>We show that, in a continual learning context, where the robot is exposed to different loading conditions, our method performs better in terms of task space error than a simple stochastic gradient descent (SGD) method.</s><s>We also show its convenience with respect to a plain controller that is only trained once on normal operating conditions (no load is attached to the robot), and not re-tuned while using loads.</s><s>Moreover, we show how the proposed control architecture is able to improve its performance when exposed to already experienced loading conditions.</s><s>This solution is greatly useful in the context of soft robotics, where the robot is subject to unknown interactions and unpredictable changes in its dynamics.</s><s>The paper is structured as follows: in Section II-A we describe the soft robotic platform used to test the proposed controller.</s><s>The data generation process, by means of motor babbling, is described in Section II-B as well as the structure and learning procedure of the forward dynamic model and of the neural network-based controller.</s><s>In Section II-C we present the experiments.</s><s>In Section III the results are displayed and a statistical analysis on the performances of the control method is discussed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Soft Robot Description</head><p><s>The soft robot arm I-support <ref type="bibr" target="#b16">[17]</ref> has been used in this work as a real world platform for testing the proposed control approach (Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>I-support is a modular soft robot intended for the assistance of elderly and disabled people in daily bathing tasks.</s><s>Each module consists of three couples of extending McKibben actuators placed along its length at a 120 • angle.</s><s>The activation of each couple allows bending in a single direction.</s><s>The actuators are kept together by equally spaced plastic discs.</s><s>Only the proximal module of the I-support platform has been used in this work.</s><s>The McKibben actuators are activated by pneumatic valves (Camozzi K8P) which are controlled by an Arduino Due board.</s><s>The Arduino is in turn controlled by a linux PC using a serial port.</s><s>The total length of the single module is 200 mm while the total weight is 160 g.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Model Description</head><p><s>In order to provide a model of the robot dynamics for offline learning of an appropriate controller, data pertaining to the mapping between the applied pressures and the resulting state of the arm must be provided.</s><s>To do so, a pseudo random sequence of 12000 pressure input samples for each couple of pneumatic chambers has been generated for motor babbling.</s><s>The inputs follow a random walk, meaning that each value is chosen randomly within a ± range of the previous value.</s><s>The random walk saturates at 0 bar, which is the lower range for the actuation, and at 0.83 bar, a limit imposed to prevent the damaging of the pneumatic chambers (Fig. <ref type="figure" target="#fig_1">2(a)</ref>).</s><s>To choose the range value we have considered the following trade-off: a high value would cause inputs samples to be more distant from each other, preventing the pneumatic chamber to reach the desired pressure before the next actuation sample (motor saturation).</s><s>Conversely, a lower would produce a less explored workspace with the same amount of input samples <ref type="bibr" target="#b7">[8]</ref>.</s><s>In this work we have chosen = 20 by trial and error.</s><s>Every 100 samples the actuators are shut down (0 pressures) for 20 samples, so as to capture the dynamics of the arm in the phase from resting position to actuated position and vice versa.</s><s>The inputs were sent to the soft robot for motor babbling at a rate of 10 Hz.</s><s>Simultaneously, the position of the tip of the arm was measured with an NDI Aurora electromagnetic tracking system (Fig. <ref type="figure" target="#fig_1">2(b)</ref>).</s><s>The obtained input/output data were split into training and test set with a 0.7 ratio for training set and a 0.3 ratio for test set, and used for supervised learning of the robot's forward model.</s></p><p><s>The ability of Recurrent Neural Networks (RNN) to learn relationships between time sequences of data has been well proven <ref type="bibr" target="#b17">[18]</ref>.</s><s>Therefore, in order to represent the robot's dynamics, an RNN layer has been used.</s></p><p><s>The model is built as the mapping between x i , x i−1 ,..., x i−3 , τ i , τ i−1 ,..., τ i−3 and x i+1 where x i , x i−1 ,..., x i−3 , and x i+1 represent the current, previous and predicted end effector positions in Cartesian space and τ i ,..., τ i−3 represent the current and previous actuator inputs.</s><s>In this way the network has information of the pressures and positions in time, so as to learn the dynamics of the system.</s><s>The forward model network consists of a RNN layer of 100 neurons followed by a linear layer with tanh() activation.</s><s>Equation (1) describes mathematically the system:</s></p><formula xml:id="formula_0">x i+i = f fwd (x i , x i−1 , x i−2 , x i−3 , τ i , τ i−1 , τ i−2 , τ i−3 , θ fwd )<label>(1)</label></formula><p><s>We choose the amount of delays for the feedback that result in a faster reduction of the training loss.</s><s>We have experimented from one step feedback delay up to five steps feedback delay.</s><s>Out of these, we observed that a memory with 4 delays results in a relatively faster reduction in model error.</s><s>The model's weights θ fwd are optimized on the training set by supervised learning for 1200 epochs, with a mean square error (MSE) loss function:</s></p><formula xml:id="formula_1">θ fwd = arg min θ fwd L fwd (θ fwd ) L fwd (θ fwd ) = N i=0 (x * i − x i ) 2<label>(2)</label></formula><p><s>where x * i is the end effector position obtained by motor babbling and measured with the electromagnetic sensor, x i is The training of the weights is performed while using the controller in the control loop shown in Fig. <ref type="figure" target="#fig_2">3</ref>.</s><s>The weight update occurs by minimization of the MSE error between the desired task x task , which is an input of the inverse model, and the output of the forward model x, for 1200 epochs.</s><s>The controller outputs the actuation of the soft robot:</s></p><formula xml:id="formula_2">τ i = f inv x i , x i−1 , x task i+1 , e i , θ inv i = t dt ∀t = 0. . .t f (<label>3</label></formula><formula xml:id="formula_3">)</formula><p><s>where dt = 10 ms and t f = 5 s.</s><s>The vector θ inv represents the weights of the inverse model which are optimized by supervised learning with the following MSE loss function:</s></p><formula xml:id="formula_4">L(θ inv ) = i (x task i − x i ) 2 i = t dt ∀t = 0. . .t f (4)</formula><p><s>where x task are the points in cartesian space of the desired task, and x are the end effector positions given by the forward model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future work may include training the inverse model directly on the real robot.</head><p><s>Once the inverse model is learnt we have an evaluation of the performance of the controller in simulation, with respect to the desired task.</s><s>After having optimized the controller it is possible to test it on the physical platform by substituting the robot to its forward model.</s></p><p><s>After this phase, the controller is optimized to let the robot execute a single task.</s><s>However if the robot is subject to an unknown interaction, which we induce here by adding external loads, the control of the desired task fails.</s><s>For this reason we propose to use continual learning which modifies the loss function in the optimization of the inverse model, such that an explicit term penalizes forgetting the older tasks.</s><s>The goal is to sequentially learn the modification of the dynamics that the robot undergoes and simultaneously to maintain a good performance in terms of task error, without incurring into catastrophic forgetting.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Soft Robot Control</head><p><s>First, to establish the necessity of a CL algorithm in this type of problem, we evaluate the performance of the controller with different loading conditions by keeping the parameters optimized for the unloaded robot, without retraining.</s><s>In this work we consider ten loading conditions for the robotic platform.</s><s>First the robot is considered without any load, then with a load of 50 g, corresponding to 31% of the robot's mass, applied to different locations of a single module of the I-support arm.</s><s>The weights are placed at a 120 • angle at the tip of the module, in median position, and in proximal position and are numbered from w1 to w9 (Fig. <ref type="figure" target="#fig_0">1</ref>).</s><s>We consider the performance of the robot in this round of experiments as the baseline which should be improved by the proposed method.</s><s>We therefore call this non-retrained controller 'null' method.</s><s>In fact, when we test the same controller on the arm with an additional load the error will be higher because the dynamics of the robot are modified by adding the external load.</s><s>However, the input-output data gathered during the failed test can be used to retrain the forward model so as to learn its dynamics with the new loading condition, as in <ref type="bibr" target="#b18">[19]</ref>.</s><s>Therefore, in the proposed method the forward model network's weights are re-updated by supervised learning for 100 epochs, minimizing the MSE error between the target circular trajectory and the real robot tip position acquired during this testing phase.</s><s>This retraining phase takes considerably less time than the first training of the forward model.</s><s>By doing so we obtain a new forward model which is updated on the recent modification of the robot's dynamics, introduced by the external load.</s><s>Similarly, the inverse model is updated on the newly trained forward model, obtaining a controller tailored on the new dynamics of the robot.</s></p><p><s>During the retraining phase of the inverse model however, an elastic weight consolidation (EWC) penalty is introduced.</s><s>EWC is a method which, by imitating the synaptic plasticity of mammalian brains, allows continual learning in a supervised learning context <ref type="bibr" target="#b15">[16]</ref>.</s><s>EWC consists in adding a penalty term to the loss function which constrains the network parameters to stay in an area of low error around the optimal parameters of the previous task A, so as to prevent catastrophic forgetting while learning the next task B:</s></p><formula xml:id="formula_5">L(θ) = L b (θ) + λ 2 F i (θ i − θ * A,i ) 2 (5)</formula><p><s>where L is the loss function, in this case the MSE error between the model output and the real Cartesian position, L b is the loss only for task B, and the remaining term on the rightside is the regularization term that ensures continual learning without forgetting.</s><s>F is the diagonal of the Fisher information matrix, θ is the parameter vector to be optimized, θ * A are the optimized parameters for the first task.</s><s>The Fisher matrix weighs the importance of each neural network parameter θ in creating a memory for the older tasks, and is the crucial term in the EWC method.</s><s>Ignoring the Fisher term makes the regularization term in (5) a pure L2-norm on the network parameters, and it is shown to be not very useful for continual learning without forgetting older tasks <ref type="bibr" target="#b15">[16]</ref>.</s><s>λ is the importance parameter which determines how much the memory of the old task is preserved.</s><s>A higher λ ensures the best memory recall of old tasks but impairs the capability of learning new tasks while a lower λ degrades the memory of previous tasks bringing the method near to a plain Stochastic Gradient Descent (SGD) supervised learning.</s><s>In this work the hyper-parameter λ has been tuned by trial and error to 10 5 .</s><s>The retraining is done also without EWC for comparison: in this case plain SGD is used for retraining, therefore we call this method 'naive'.</s></p><p><s>Using the proposed method the controller preserves the memory of the previously learned dynamics and avoids catastrophic forgetting.</s><s>In fact, if a plain stochastic gradient descent (SGD) method is used, the network will learn the task only for that particular loading condition, forgetting all the other configurations.</s><s>Moreover, by using plain SGD, successive update of the same weights on different tasks causes interference which degrades the intended performance of the network.</s><s>This procedure is repeated while changing the loading conditions of the arm in random order, until all loading conditions are tested twice on the robot.</s><s>Note that the forward model is retrained using the data from the most recent task, always starting from forward model 0 (meaning the model trained from the original motor babbling data), so as to have an estimate of the current robot dynamics altered by the external load.</s><s>We assume in fact that a retraining with data from a control trial on top of a fully trained forward model of the unloaded robot is sufficient to have a good approximation of the new dynamics.</s><s>We want to stress that the retraining of the inverse model with EWC and the one of the inverse model with SGD are performed independently, meaning that two retrained forward models are always built from data obtained from the trial done using the EWC-controller and from the one using the SGD-controller.</s><s>The two retrained models are used separately for the retraining phase of the EWC and SGD controller respectively.</s><s>The loading conditions are presented randomly and are named w1, w2, . .</s><s>., w9 (see Fig. <ref type="figure" target="#fig_0">1</ref>) while the conditions with the subscript w1 2 , w2 2 , . .</s><s>., w9 2 represent that the condition is encountered for the second time.</s><s>Considering also the no load condition, a total of 20 trials has been performed for each round of experiments.</s><s>The flowchart for the described experiment is shown in Fig. <ref type="figure" target="#fig_3">4</ref> and has been repeated five times.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS AND DISCUSSION</head><p><s>In Fig. <ref type="figure">5</ref> the comparison between the mean RMS error in Cartesian space with the EWC method, the naive (SGD) method, and the null method (no retraining) is shown.</s><s>The performance metric is calculated as:</s></p><formula xml:id="formula_6">RM SE = N i=1 (x task i − x i ) 2 N (<label>6</label></formula><formula xml:id="formula_7">)</formula><p><s>Where N = 50 is the number of points in the circular trajectory, x task is the desired trajectory and x is the real robot's end effector position.</s><s>The bar represents the RMSE averaged on the five repetitions of the experiment, for the particular trial, while the standard deviation on the five trials is chosen as confidence interval and shown in the plot.</s><s>During the first two trials (without weight and with weight in location 9, noted as w9), only the error of the null trials is shown since there is no retraining in between the trials (see Fig. <ref type="figure" target="#fig_3">4</ref>).</s><s>Therefore the EWC penalty does not come into play.</s><s>The error with no load is comparable to the performance present in the literature with similar neural network based control methods <ref type="bibr" target="#b7">[8]</ref>, in this case 12.92 ± 0.9 mm, corresponding to 6.46% of the robot's length.</s><s>In the immediately subsequent trial, w3, where the EWC penalty has been introduced in the retraining phase in between the trials, we can immediately appreciate a lower error with the controller retrained using EWC.</s><s>This is because in this trial the controller has been trained only to minimize the task error for the previous loading condition w9, in the case of the plain SGD method, and it is asked to control a manipulator with a different loading condition.</s><s>In the case of the EWC instead the controller has been also trained on the previous loading condition, but by means of the EWC penalty it also maintains the memory of the loading conditions previously encountered, in this case the no weight condition.</s><s>This allows for a better performance, especially as the encountered tasks succeed one another.</s><s>Moreover, the plain SGD method undergoes catastrophic forgetting and after successive retraining erases the memory of the previously learnt robot dynamics.</s><s>We note that the more that the successive loading conditions are differently affecting the robot's dynamics (eg. the weight are placed on opposite locations) the more the difference in performance between SGD and EWC is in favour of EWC (See for example w2 2 in Fig. <ref type="figure">5</ref>).</s><s>Conversely, if the two loading conditions are similar it is possible that the two methods perform equally or that the SGD method performs slightly better.</s><s>This is because the training performed on the first loading condition remains valid for the subsequent loading condition, since the dynamics have not changed significantly (See for example w4 in Fig. <ref type="figure">5</ref>).</s><s>However the performance in terms of task error is overall better for the EWC method as we can verify using a cumulative density function plot (Fig. <ref type="figure" target="#fig_4">6</ref>).</s></p><p><s>In Fig. <ref type="figure">5</ref> the comparison between the mean RMS error with EWC and the error resulting from not retraining is shown as well.</s></p><p><s>Here, since the controller in the 'null' method never undergoes a retraining phase it is always tailored on the no load condition.</s><s>Therefore once any load is added the controller performance will degrade.</s><s>We observe that the worst performance is achieved when the weight is placed closer to the tip of the robot, since it exerts a higher momentum.</s></p><p><s>In Fig. <ref type="figure" target="#fig_4">6</ref> we plotted the cumulative density function of the task errors (on the x-axis) resulting from different learning strategies across the task conditions (of loading and unloading).</s><s>Note that here the task errors for each strategy (ewc, naive, and null) correspond to the test errors obtained on a new task (new loading condition), while the network was not yet retrained to reduce the error on the current loading condition and has been trained only until the preceding loading condition.</s><s>We see clearly in Fig. <ref type="figure" target="#fig_4">6</ref> that the EWC method results in an overall lower mean error (blue line) on new loading conditions when compared with the null and naive strategies, thus justifying the need of such a controller.</s><s>See Fig. <ref type="figure" target="#fig_6">8</ref> for a comparison between the trajectories in task space with and without EWC.</s><s>In Fig. <ref type="figure" target="#fig_5">7</ref> we show the best achieved Fig. <ref type="figure">5</ref>.</s><s>The mean task space error computed for each trial shown for the EWC, SGD (naive) and null methods after training only on previous loading conditions, and before retraining on the current condition.</s><s>On the x-axis the conditions w1, w2, . .</s><s>., w9 are indicated, while the subscript w1 2 , w2 2 , . .</s><s>., w9 2 indicates that the condition is encountered the second time.</s><s>performance of the EWC method (10.44 ± 0.89 mm) achieved in a trial on task w9 2 , corresponding to 5.22% of the robot's length.</s><s>In Fig. <ref type="figure" target="#fig_6">8</ref>(a) and (b) two particular cases are shown where the difference in performance between the two methods is highest in Fig. <ref type="figure" target="#fig_6">8</ref>(a) and lowest in Fig. <ref type="figure" target="#fig_6">8(b)</ref>.</s></p><p><s>We have averaged the cartesian error across all the different weights for each of the five repetitions of the experiment to perform a one way ANOVA.</s><s>First we have verified the normality of the data with a Kolmogorov-Smirnov (KS) test.</s><s>The KS test shows that the data from the EWC, naive and null groups come from a normal distribution.</s><s>The ANOVA test shows that there is a statistically significant difference between all groups (p = 1.3180 * 10 −5 ).</s><s>A multiple comparison test shows that there is a statistically significant difference between the EWC method and the naive method, and between the EWC method and the null method (p = 1.4239 * 10 −5 and p = 1.7539 * 10 −4 , respectively).</s><s>There was no statistically significant difference between naive and null methods (p = 0.2179), implying that the naive controller retrained without any EWC regularization (see <ref type="bibr" target="#b4">(5)</ref>) does not perform significantly different compared to the use of a controller that is fixed in the beginning and never retrained for changing loads.</s><s>Both methods do not have memory of newly encountered tasks, therefore their error is not significantly different.</s><s>We display the statistical significance of the differences between groups in Fig. <ref type="figure" target="#fig_0">10(b)</ref>.</s><s>Fig. <ref type="figure">9</ref>.</s><s>The average cartesian error on the first round of weights compared to the average error for the second round of weights, for the EWC and naive methods.</s><s>Fig. <ref type="figure" target="#fig_0">10</ref>.</s><s>Average error across all trials for the null method, the SGD (naive) method, and the EWC method with importance factor λ = 10 3 , λ = 10 4 , λ = 10 5 , λ = 10 6 .</s><s>The statistical significance of the difference between the EWC method with λ = 10 5 method and the naive and null methods is shown.</s><s>Fig. <ref type="figure">9</ref> shows a comparison between the average errors across the loading conditions applied in the first and in the second round of experiments.</s><s>We have averaged all the cartesian errors across the trials where a loading condition is experienced the first time, and where it is experienced the second time respectively.</s><s>The standard deviation computed on the five repetitions of the experiment is assumed as confidence interval and shown as a error bar.</s><s>We can appreciate a decrease in the mean error for the EWC method when the weights are applied the second time.</s><s>We have performed a paired t-test of the hypothesis showing that the two groups of average errors come from distributions with equal means.</s><s>The null hypothesis is rejected for the ewc groups (p = 0.2924) confirming that there is a statistically significant change in average error when the loading conditions are repeated, showing the capability of the proposed method to incrementally learn from repetitions without forgetting.</s><s>The average error for the naive groups, besides being consistently higher, is not found to change in a statistically significant manner.</s></p><p><s>So far the results are for an importance factor of λ = 10 5 .</s><s>The previous experiments have been repeated for λ = 10 6 , λ = 10 4 and λ = 10 3 .</s><s>In Fig. <ref type="figure" target="#fig_0">10</ref>(a) the average error across all trials for the EWC method at varying values of lambda is shown.</s><s>Since we do not appreciate a significant change in the performance of the EWC method we have chosen λ = 10 5 so as to maximize the memorization capability of the method.</s><s>A higher lambda invalidates the capability of the controller to learn new tasks as we can deduce from the increasing error for λ = 10 6 .</s><s>In this work we applied the weights randomly without any prior knowledge of all loading conditions.</s><s>In future studies, it will be interesting to compare how the EWC method performs relative to a batch training where all loading conditions are trained by considering them to be known apriori.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. CONCLUSION</head><p><s>In this paper we have explored the application of continual learning methods to soft robot control.</s><s>The advantages of such methods are in that a continuously re-updatable controller can adapt itself to changes in the soft robot dynamics, which can be due to material degradation or to the external disturbances of unstructured environments.</s><s>We show that EWC can be used to successfully re-tune the parameters of a neural network-based controller to adapt it to changing robot dynamics without forgetting the previously learnt dynamics.</s><s>In our experiments with successive trials with different weights we show that our method is able to track the same circular task outperforming plain SGD, which incurs in interference.</s><s>Additionally it is also capable of improving its performance when exposed to loading conditions already experienced.</s></p><p><s>This method is also scalable meaning that it could be applied to different soft manipulators of different sizes due to the generalization capabilities of neural networks.</s><s>Our results put the basis for the study of more advanced continual learning methods on this type of platforms.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc><div><p><s>Fig. 1.</s><s>(a) A single module of the I-support arm in relaxed condition.</s><s>The locations where the external load will be placed are shown and labeled w1, w2, . .</s><s>., w9.</s><s>(b) The arm with an external load placed on location 2.</s></p></div></figDesc><graphic coords="2,310.66,66.16,240.00,165.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc><div><p><s>Fig. 2. (a) The first 100 samples of quasi random actuation inputs provided to the robot for motor babbling.</s><s>(b) The robot workspace recorded with an NDI Aurora electromagnetic tracking system during a motor babbling session.</s></p></div></figDesc><graphic coords="3,46.44,66.83,233.88,199.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc><div><p><s>Fig. 3.</s><s>The proposed adaptive control architecture.</s><s>The inverse model model receives in input the current and previous end effector positions x i , x i−1 , the next target x task i+1 , the current task space error e i = x task i − x i , and outputs the actuation τ i .</s><s>The forward model takes as input a sequence of end effector positions x i , x i−1 ,..., x i−3 , and actuation τ i , τ i−1 ,..., τ i−3 and outputs the next end effector position x i+1 .</s></p></div></figDesc><graphic coords="3,306.45,66.72,240.00,178.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc><div><p><s>Fig. 4. Flowchart of the performed experiments.</s></p></div></figDesc><graphic coords="5,63.94,66.72,198.72,358.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .</head><label>6</label><figDesc><div><p><s>Fig. 6.</s><s>The cumulative density function plots of the Cartesian kinematic errors from change in loading before network retraining for the new load.</s><s>The dashed lines represent the mean of each distribution.</s></p></div></figDesc><graphic coords="6,98.65,530.40,137.88,93.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc><div><p><s>Fig. 7.</s><s>The best performance achieved by the EWC method on task w9 2 .</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc><div><p><s>Fig. 8. (a) Task w2 2 and (b) task w7 2 , (Top = EWC, bottom = SGD).</s></p></div></figDesc><graphic coords="6,310.66,305.78,240.00,178.68" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/</note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Cho upon evaluation of the reviewers' comments.</s><s>This work was supported in part by the European Union's Horizon 2020 Research and Innovation Programme through PROBOSCIS Project under Grant 863212 and in part by Human Brain Project SGA3 under Grant 945539.</s></p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Control strategies for soft robotic manipulators: A survey</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Thuruthel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Falotico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Laschi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="149" to="163" />
+		</imprint>
+	</monogr>
+	<note>Soft Robot</note>
+	<note type="raw_reference">T. G. Thuruthel, Y. Ansari, E. Falotico, and C. Laschi, &quot;Control strate- gies for soft robotic manipulators: A survey,&quot; Soft Robot., vol. 5, no. 2, pp. 149-163, 2018.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Feedback Control of Soft Robot Actuators via Commercial Flex Bend Sensors</title>
+		<author>
+			<persName><forename type="first">Giada</forename><surname>Gerboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Diodato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gastone</forename><surname>Ciuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Cianchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arianna</forename><surname>Menciassi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tmech.2017.2699677</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ASME Transactions on Mechatronics</title>
+		<title level="j" type="abbrev">IEEE/ASME Trans. Mechatron.</title>
+		<idno type="ISSN">1083-4435</idno>
+		<idno type="ISSNe">1941-014X</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1881" to="1888" />
+			<date type="published" when="2017-08">Aug. 2017</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Gerboni, A. Diodato, G. Ciuti, M. Cianchetti, and A. Menciassi, &quot;Feedback control of soft robot actuators via commercial flex bend sen- sors,&quot; IEEE/ASME Trans. Mechatronics, vol. 22, no. 4, pp. 1881-1888, Aug. 2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Dynamic Model of a Multibending Soft Robot Arm Driven by Cables</title>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Renda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Giorelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcello</forename><surname>Calisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Cianchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cecilia</forename><surname>Laschi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tro.2014.2325992</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Robotics</title>
+		<title level="j" type="abbrev">IEEE Trans. Robot.</title>
+		<idno type="ISSN">1552-3098</idno>
+		<idno type="ISSNe">1941-0468</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1109" to="1122" />
+			<date type="published" when="2014-10">Oct. 2014</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Renda, M. Giorelli, M. Calisti, M. Cianchetti, and C. Laschi, &quot;Dynamic model of a multibending soft robot arm driven by cables,&quot; IEEE Trans. Robot., vol. 30, no. 5, pp. 1109-1122, Oct. 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Kinematics for multisection continuum robots</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tro.2005.861458</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Robotics</title>
+		<title level="j" type="abbrev">IEEE Trans. Robot.</title>
+		<idno type="ISSN">1552-3098</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="55" />
+			<date type="published" when="2006-02">Feb. 2006</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. A. Jones and I. D. Walker, &quot;Kinematics for multisection continuum robots,&quot; IEEE Trans. Robot., vol. 22, no. 1, pp. 43-55, Feb. 2006.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Design and Kinematic Modeling of Constant Curvature Continuum Robots: A Review</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryan</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0278364910368147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Robotics Research</title>
+		<title level="j" type="abbrev">The International Journal of Robotics Research</title>
+		<idno type="ISSN">0278-3649</idno>
+		<idno type="ISSNe">1741-3176</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1661" to="1683" />
+			<date type="published" when="2010-06-10">2010</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. J. Webster III and B. A. Jones, &quot;Design and kinematic modeling of constant curvature continuum robots: A review,&quot; Int. J. Robot. Res., vol. 29, no. 13, pp. 1661-1683, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dynamic control of soft robots interacting with the environment</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Della</forename><surname>Santina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Katzschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Biechi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Soft Robot</title>
+				<meeting>IEEE Int. Conf. Soft Robot</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="46" to="53" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Della Santina, R. K. Katzschmann, A. Biechi, and D. Rus, &quot;Dynamic control of soft robots interacting with the environment,&quot; in Proc. IEEE Int. Conf. Soft Robot., 2018, pp. 46-53.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Adaptive Neural Network Control of a Compact Bionic Handling Arm</title>
+		<author>
+			<persName><forename type="first">Achille</forename><surname>Melingui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Othman</forename><surname>Lakhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Boubaker</forename><surname>Daachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Bosco</forename><surname>Mbede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rochdi</forename><surname>Merzouki</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tmech.2015.2396114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ASME Transactions on Mechatronics</title>
+		<title level="j" type="abbrev">IEEE/ASME Trans. Mechatron.</title>
+		<idno type="ISSN">1083-4435</idno>
+		<idno type="ISSNe">1941-014X</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2862" to="2875" />
+			<date type="published" when="2015-12">Dec. 2015</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Melingui, O. Lakhal, B. Daachi, J. B. Mbede, and R. Mer- zouki, &quot;Adaptive neural network control of a compact bionic handling arm,&quot; IEEE/ASME Trans. Mechatronics, vol. 20, no. 6, pp. 2862-2875, Dec. 2015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Learning dynamic models for open loop predictive control of soft robotic manipulators</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">George</forename><surname>Thuruthel</surname></persName>
+			<idno type="ORCID">0000-0003-0571-1672</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Egidio</forename><surname>Falotico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Renda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cecilia</forename><surname>Laschi</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1748-3190/aa839f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinspiration &amp; Biomimetics</title>
+		<title level="j" type="abbrev">Bioinspir. Biomim.</title>
+		<idno type="ISSNe">1748-3190</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">066003</biblScope>
+			<date type="published" when="2017-10-16">2017</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. G. Thuruthel, E. Falotico, F. Renda, and C. Laschi, &quot;Learning dynamic models for open loop predictive control of soft robotic manipulators,&quot; Bioinspiration Biomimetics, vol. 12, no. 6, 2017, Art. no. 066003.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Model-Based Reinforcement Learning for Closed-Loop Dynamic Control of Soft Robotic Manipulators</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">George</forename><surname>Thuruthel</surname></persName>
+			<idno type="ORCID">0000-0003-0571-1672</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Egidio</forename><surname>Falotico</surname></persName>
+			<idno type="ORCID">0000-0001-8060-8080</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Renda</surname></persName>
+			<idno type="ORCID">0000-0002-1833-9809</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Cecilia</forename><surname>Laschi</surname></persName>
+			<idno type="ORCID">0000-0001-5248-1043</idno>
+		</author>
+		<idno type="DOI">10.1109/tro.2018.2878318</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Robotics</title>
+		<title level="j" type="abbrev">IEEE Trans. Robot.</title>
+		<idno type="ISSN">1552-3098</idno>
+		<idno type="ISSNe">1941-0468</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="124" to="134" />
+			<date type="published" when="2019-02">Feb. 2019</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. G. Thuruthel, E. Falotico, F. Renda, and C. Laschi, &quot;Model-based reinforcement learning for closed-loop dynamic control of soft robotic manipulators,&quot; IEEE Trans. Robot., vol. 35, no. 1, pp. 124-134, Feb. 2019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Robust control of a silicone soft robot using neural networks</title>
+		<author>
+			<persName><forename type="first">Gang</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuan</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mingda</forename><surname>Ju</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isatra.2019.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISA Transactions</title>
+		<title level="j" type="abbrev">ISA Transactions</title>
+		<idno type="ISSN">0019-0578</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="38" to="45" />
+			<date type="published" when="2020-05">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Zheng, Y. Zhou, and M. Ju, &quot;Robust control of a silicone soft robot using neural networks,&quot; ISA Trans., vol. 100, pp. 38-45, 2020.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Soft Robot Control With a Learned Differentiable Model</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Bern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yannick</forename><surname>Schnider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pol</forename><surname>Banzet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nitish</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stelian</forename><surname>Coros</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/robosoft48309.2020.9116011</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2020 3rd IEEE International Conference on Soft Robotics (RoboSoft)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2020-05">2020</date>
+			<biblScope unit="page" from="417" to="423" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Bern, Y. Schnider, P. Banzet, N. Kumar, and S. Coros, &quot;Soft robot control with a learned differentiable model,&quot; in Proc. 3 rd IEEE Int. Conf. Soft Robot., 2020, pp. 417-423.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Koopman-Based Control of a Soft Continuum Manipulator Under Variable Loading Conditions</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Bruder</surname></persName>
+			<idno type="ORCID">0000-0001-7683-2725</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Xun</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Brent</forename><surname>Gillespie</surname></persName>
+			<idno type="ORCID">0000-0002-1051-0026</idno>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">David</forename><surname>Remy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ram</forename><surname>Vasudevan</surname></persName>
+			<idno type="ORCID">0000-0003-1978-0572</idno>
+		</author>
+		<idno type="DOI">10.1109/lra.2021.3095268</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Robotics and Automation Letters</title>
+		<title level="j" type="abbrev">IEEE Robot. Autom. Lett.</title>
+		<idno type="ISSNe">2377-3774</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="6852" to="6859" />
+			<date type="published" when="2021-10">Oct. 2021</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan, &quot;Koopman-based control of a soft continuum manipulator under vari- able loading conditions,&quot; IEEE Robot. Automat. Lett., vol. 6, no. 4, pp. 6852-6859, Oct. 2021.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Open Loop Position Control of Soft Continuum Arm Using Deep Reinforcement Learning</title>
+		<author>
+			<persName><forename type="first">Sreeshankar</forename><surname>Satheeshbabu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naveen</forename><forename type="middle">Kumar</forename><surname>Uppalapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Girish</forename><surname>Chowdhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Girish</forename><surname>Krishnan</surname></persName>
+			<idno type="ORCID">0000-0002-1005-2862</idno>
+		</author>
+		<idno type="DOI">10.31224/osf.io/n7h9y</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Robot. Automat</title>
+				<meeting>Int. Conf. Robot. Automat</meeting>
+		<imprint>
+			<publisher>Open Engineering Inc</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="5133" to="5139" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Satheeshbabu, N. K. Uppalapati, G. Chowdhary, and G. Krishnan, &quot;Open loop position control of soft continuum arm using deep reinforce- ment learning,&quot; in Proc. Int. Conf. Robot. Automat., 2019, pp. 5133-5139.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">Timothée</forename><surname>Lesort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincenzo</forename><surname>Lomonaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrei</forename><surname>Stoian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Maltoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Filliat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Díaz-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.inffus.2019.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Fusion</title>
+		<title level="j" type="abbrev">Information Fusion</title>
+		<idno type="ISSN">1566-2535</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="52" to="68" />
+			<date type="published" when="2020-06">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Lesort, V. Lomonaco, A. Stoian, D. Maltoni, D. Filliat, and N. Dıaz-Rodrıguez, &quot;Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges,&quot; Inf. Fusion, vol. 58, pp. 52-68, 2020.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Continual lifelong learning with neural networks: A review</title>
+		<author>
+			<persName><forename type="first">German</forename><forename type="middle">I</forename><surname>Parisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><surname>Kemker</surname></persName>
+			<idno type="ORCID">0000-0003-4087-4952</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jose</forename><forename type="middle">L</forename><surname>Part</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Kanan</surname></persName>
+			<idno type="ORCID">0000-0002-6412-995X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Wermter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neunet.2019.01.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<title level="j" type="abbrev">Neural Networks</title>
+		<idno type="ISSN">0893-6080</idno>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="54" to="71" />
+			<date type="published" when="2019-05">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. I. Parisi, R. Kemker, J. L. Part, C. Kanan, and S. Wermter, &quot;Continual lifelong learning with neural networks: A review,&quot; Neural Netw., vol. 113, pp. 54-71, 2019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Overcoming catastrophic forgetting in neural networks</title>
+		<author>
+			<persName><forename type="first">James</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Razvan</forename><surname>Pascanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neil</forename><surname>Rabinowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joel</forename><surname>Veness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Desjardins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrei</forename><forename type="middle">A</forename><surname>Rusu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kieran</forename><surname>Milan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tiago</forename><surname>Ramalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agnieszka</forename><surname>Grabska-Barwinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Demis</forename><surname>Hassabis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Clopath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dharshan</forename><surname>Kumaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raia</forename><surname>Hadsell</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1611835114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3521" to="3526" />
+			<date type="published" when="2017-03-14">2017</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Kirkpatrick et al., &quot;Overcoming catastrophic forgetting in neural net- works,&quot; Proc. Nat. Acad. Sci., vol. 114, no. 13, pp. 3521-3526, 2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Soft assistive robot for personal care of elderly people</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pratesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Falotico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cianchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Laschi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/biorob.2016.7523731</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2016 6th IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-06">2016</date>
+			<biblScope unit="page" from="833" to="838" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Manti, A. Pratesi, E. Falotico, M. Cianchetti, and C. Laschi, &quot;Soft assistive robot for personal care of elderly people,&quot; in Proc. 6th IEEE Int. Conf. Biomed. Robot. Biomechatronics, 2016, pp. 833-838.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Deep Learning</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Courville</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Goodfellow, Y. Bengio, and A. Courville, Deep Learning. Cambridge, MA, USA: MIT Press, 2016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Controlling Soft Robotic Arms Using Continual Learning</title>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Pique</surname></persName>
+			<idno type="ORCID">0000-0002-9101-0428</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hari</forename><forename type="middle">Teja</forename><surname>Kalidindi</surname></persName>
+			<idno type="ORCID">0000-0003-2634-7953</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenzo</forename><surname>Fruzzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cecilia</forename><surname>Laschi</surname></persName>
+			<idno type="ORCID">0000-0001-5248-1043</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Arianna</forename><surname>Menciassi</surname></persName>
+			<idno type="ORCID">0000-0001-6348-1081</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Egidio</forename><surname>Falotico</surname></persName>
+			<idno type="ORCID">0000-0001-8060-8080</idno>
+		</author>
+		<idno type="DOI">10.1109/lra.2022.3157369</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Robotics and Automation Letters</title>
+		<title level="j" type="abbrev">IEEE Robot. Autom. Lett.</title>
+		<idno type="ISSNe">2377-3774</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="5469" to="5476" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Piqué, H. T. Kalidindi, A. Menciassi, C. Laschi, and E. Falotico, &quot;A learning-based approach for adaptive closed-loop control of a soft robotic arm,&quot; in Proc. I-RIM 3D Conf., Online, 2020, pp. 10-12.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

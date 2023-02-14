@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An illustrated guide to landmarks in histological rat and mouse brain images</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Øvsthus M, Checinska</roleName><forename type="first">Bjerke</forename><surname>Ie</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Neural systems laboratory, University of Oslo, Norway</note>
+								<orgName type="laboratory">Neural systems laboratory</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+								<address>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Leergaard</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Neural systems laboratory, University of Oslo, Norway</note>
+								<orgName type="laboratory">Neural systems laboratory</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+								<address>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An illustrated guide to landmarks in histological rat and mouse brain images</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E49B93B625EFED7D851E83AE28B856E8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3-SNAPSHOT" ident="GROBID" when="2023-02-13T23:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The brain is the most complex structure known, with large numbers of interconnected regions, subregions and zones.</s><s>The structural and functional architecture of brain regions differ across regions, and is often the focus of experimental studies in rat and mouse models for development, aging and disease.</s><s>The anatomical localization of neuroscientific data is thus crucial for interpretation of neuroscience data.</s><s>For histological images, efficient interpretation and analysis based on neuroanatomical information can be achieved by spatial registration of images to reference atlases (see, e.g.</s><s>Puchades et al., 2019, PLOS one; Yates et al., 2019, Front.</s><s>Neuroinf.).</s><s>However, accurate spatial registration critically depends on neuroanatomical knowledge, which is necessary to identify anatomical locations and determine the spatial location and orientation of histological images.</s><s>In this context, prominent and specific brain regions are highly useful and can be thought of as "landmark" structures that readily can be recognized in different images of brain tissue.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>With this guide, we provide an overview of landmark structures in rat and mouse brains.</s><s>We have annotated a selection of coronal, sagittal, and horizontal images and provide descriptions of the illustrated landmark structures.</s><s>These landmarks provide a useful basis for getting an overview of murine brain anatomy in general and for spatial registration of brain images to reference atlases in particular.</s><s>The images used in this guide are taken from publicly available datasets downloaded from the EBRAINS infrastructure and the Allen Institute web portal, the references for which are listed below (click the headline to jump to the landmark descriptions):</s></p><p><s>-Coronal rat brain images o Leergaard, T. B., Lillehaug, S., <ref type="bibr">Dale, A., &amp; Bjaalie, J. G. (2018)</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Landmarks in the coronal plane (anterior to posterior)</head><p><s>Landmark Description</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Granular layers of the olfactory bulb</head><p><s>The most anterior section where the granular layer of the olfactory bulb is last seen (Figure <ref type="figure">1</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior corpus callosum</head><p><s>The most anterior section where the corpus callosum is visible (Figure <ref type="figure">1</ref>, green)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior nucleus accumbens</head><p><s>The most anterior section where the nucleus accumbens is visible (Figure <ref type="figure">2</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior striatum</head><p><s>The most anterior section where the striatum is visible (Figure <ref type="figure">2</ref>, green)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genu corpus callosum</head><p><s>The most anterior section in which the corpus callosum is continuous across the midline (Figure <ref type="figure">3</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Merging of anterior commissure</head><p><s>The most anterior section in which the anterior commissure is continuous across the midline (Figure <ref type="figure">4</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior hippocampus</head><p><s>The most anterior section where the hippocampus can be distinguished (Figure <ref type="figure">5</ref>).</s><s>The rest of the anterior part of the hippocampus has a characteristic profile and is well suited to determine anteroposterior location</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amygdalar nuclei</head><p><s>A triangle shaped nuclei compilation that can be seen through many sections medially in the brain going anterior to posterior (Figure <ref type="figure">6</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optic chiasm/Optic tract</head><p><s>The development of the optic chiasm into optic tract, and the change in shape of optic tract when moving posteriorly (Figure <ref type="figure">7</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Habenular nuclei/habenular commissure</head><p><s>The most posterior section where habenular nuclei develops into habenular commissure (Figure <ref type="figure">8</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior commissure</head><p><s>Most anterior section where posterior commissure appears dorsally to 3rd ventricle (Figure <ref type="figure">9</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Splenium corpus callosum</head><p><s>The most anterior section where the corpus callosum is no longer continuous across the midline (Figure <ref type="figure">10</ref>) Note that in transgenic mice, an asymmetry with the template is often observed</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ventral dentate gyrus</head><p><s>The most anterior section where ventral dentate gyrus is visible (Figure <ref type="figure">11</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior mammillary nucleus</head><p><s>The most anterior section where the nucleus is still visible (Figure <ref type="figure" target="#fig_0">12</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior end of thalamus</head><p><s>The most anterior section in which the thalamus is no longer visible (Figure <ref type="figure">13</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior superior colliculus</head><p><s>The most posterior section showing the posterior superior colliculus (Figure <ref type="figure">14</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior dentate gyrus</head><p><s>The most posterior section showing the dentate gyrus (Figure <ref type="figure">15</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior subiculum</head><p><s>The most posterior section showing the posterior subiculum (Figure <ref type="figure">16</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inferior colliculus</head><p><s>The most anterior section in which the superior colliculus is no longer visible and the inferior colliculus occupies the dorsal-most part of the brain stem (Figure <ref type="figure">17</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior pontine nuclei</head><p><s>The most anterior section in which the grey matter of the pontine nuclei can be discerned among the distinct transverse fibres of the pons (Figure <ref type="figure">18</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of inferior colliculus and brainstem</head><p><s>The first section posteriorly where the inferior colliculus has separated from the brainstem and cerebellum in visible medially (Figure <ref type="figure">19</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior inferior colliculus</head><p><s>The most posterior section where the tissue of inferior colliculus is still visible (Figure <ref type="figure">19</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Facial nerve</head><p><s>The section where facial nerve is seen across the whole brainstem (Figure <ref type="figure">20</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cerebellar nuclei</head><p><s>The most anterior and posterior sections after the separation of brainstem and cerebellum in which the nuclei are visible (Figure <ref type="figure">21</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of cerebellum and brainstem</head><p><s>The first section posteriorly where cerebellum and brainstem are no longer connected (Figure <ref type="figure">22</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Posterior cerebellum</head><p><s>The last section where tissue of cerebellum is still visible (Figure <ref type="figure">23</ref>).</s><s>Note that this should only be used carefully in the case of physical sections, as small parts of the posterior cerebellum might have been lost during mounting.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inferior olive, anterior and posterior end</head><p><s>The most anterior and the most posterior sections in which the inferior olive is visible (Figure <ref type="figure">24</ref> and 26, respectively)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Merging of tissue around central canal</head><p><s>The section where the tissue by the 4th ventricle closes and the central canal is created (Figure <ref type="figure">25</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral hippocampus</head><p><s>The first lateral section where the hippocampus is visible (Figure <ref type="figure">1</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral striatum</head><p><s>The first lateral section where the striatum is visible (Figure <ref type="figure">2</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral cerebellum</head><p><s>The first lateral section where cerebellar tissue becomes visible (Figure <ref type="figure">3</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Internal capsule</head><p><s>The first lateral section where the internal capsule is visible (Figure <ref type="figure">4</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral globus pallidus</head><p><s>The first lateral section where the globus pallidus, external segment is visible (Figure <ref type="figure">5</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The x shaped CA3</head><p><s>The section where the cell layer of CA3 forms an x between the dorsal and ventral hippocampus (Figure <ref type="figure">6</ref>, green)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Brainstem</head><p><s>The most lateral section where the brainstem is visible (Figure <ref type="figure">6</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cerebellar nuclei</head><p><s>The most lateral section where the cerebellar nuclei is visible (Figure <ref type="figure">7</ref>)</s></p><p><s>Ventral geniculate nucleus The first section where the ventral geniculate nucleus (thalamus) is visible (Figure <ref type="figure">8</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of dorsal and ventral hippocampus</head><p><s>The most lateral section where the whole hippocampus is divided into a dorsal and a ventral part (Figure <ref type="figure">9</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of dorsal and ventral parahippocampal region</head><p><s>The first section where the parahippocampal region separates into dorsal and ventral parts (Figure <ref type="figure">10</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Brachium of inferior colliculus</head><p><s>The most lateral section where the brachium is visible ventrally to the para-and presubiculum (Figure <ref type="figure">11</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Olfactory tubercle</head><p><s>The most lateral section where the olfactory tubercle is visible in the ventral part of the hemisphere (Figure <ref type="figure">11</ref>, green)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Olfactory bulb</head><p><s>The most lateral section where the olfactory bulb becomes visible (Figure <ref type="figure" target="#fig_0">12</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medial end of ventral hippocampus</head><p><s>The most medial section where the ventral end of the hippocampus is still visible (Figure <ref type="figure">13</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pontine nuclei</head><p><s>The most lateral section where the nuclei first is visible (Figure <ref type="figure">14</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Merging of anterior commissure</head><p><s>The section where the merging of anterior and posterior part of the anterior commissure is visible (Figure <ref type="figure">15</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral septal nucleus</head><p><s>The first section where the striatum is completely gone and all that is visible is the septal nucleus (Figure <ref type="figure">16</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medial striatum</head><p><s>The most medial section where the striatum is still visible (Figure <ref type="figure">17</ref>)</s></p><p><s>Medial dorsal hippocampus The most medial section where the end of the dorsal hippocampus is still visible (Figure <ref type="figure">18</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal cortex of inferior colliculus</head><p><s>The most medial section where the tissue of the inferior colliculus is still visible (Figure <ref type="figure">19</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medial habenular nucleus</head><p><s>The medial section where the nucleus becomes visible on top of the round shaped thalamic nuclei (Figure <ref type="figure">20</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal superior colliculus</head><p><s>The most dorsal section where the superior colliculus is visible (Figure <ref type="figure">1</ref>, red)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal inferior colliculus</head><p><s>The most dorsal section where the inferior colliculus is visible (Figure <ref type="figure">1</ref>, green)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal hippocampus</head><p><s>The most dorsal section where the hippocampus is visible (Figure <ref type="figure">2</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal cerebellum</head><p><s>The most dorsal section where the cerebellar tissue is visible (Figure <ref type="figure">3</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Corpus callosum</head><p><s>The most dorsal section where the corpus callosum merges across the middle (Figure <ref type="figure">4</ref>).</s><s>Also, more laterally, the shape of the anterior part of the corpus callosum may assist in the anchoring process</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal striatum</head><p><s>The most dorsal section where the striatum is visible (Figure <ref type="figure">5</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fasciola cinereum</head><p><s>The most dorsal section where the fasciola cinereum is visible as two long parallel bands of cells medially in the brain (Figure <ref type="figure">6</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lateral septal nuclei</head><p><s>The first section where dorsal fornix is replaced with the septal nuclei (Figure <ref type="figure">7</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of medial and lateral dentate gyrus</head><p><s>The most dorsal section where the dentate gyrus separates into a medial and lateral part (Figure <ref type="figure">8</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thalamic nuclei</head><p><s>The most dorsal section where the thalamic nuclei becomes visible between the medial and lateral dentate (Figure <ref type="figure">8</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal olfactory bulb</head><p><s>The most dorsal section where the tissue of the olfactory bulb is visible (Figure <ref type="figure">9</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Merging of 3rd ventricle and lateral ventricle</head><p><s>The most dorsal section where the two ventricles merge (Figure <ref type="figure">10</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal cerebellar nuclei</head><p><s>The most dorsal section where the cerebellar nuclei are visible in the deep cerebral white matter of the cerebellum (Figure <ref type="figure">11</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Globus pallidus</head><p><s>The most dorsal section where the globus pallidus is visible (Figure <ref type="figure" target="#fig_0">12</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterior commissure</head><p><s>The most dorsal section where the anterior commissure is conjoined across the midline in the anterior region of the brain (Figure <ref type="figure">13</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of the midline of anterior commissure</head><p><s>The most dorsal section where the anterior commissure is divided into left and right parts (Figure <ref type="figure">14</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dorsal brainstem</head><p><s>The most dorsal section where the cerebellar tissue is replaced by brainstem tissue and the 4th ventricle is prominent (Figure <ref type="figure">15</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ventral striatum</head><p><s>The most ventral section where the striatum is clearly visible (Figure <ref type="figure">16</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ventral cerebellum</head><p><s>The most ventral section where the cerebellar tissue is visible (Figure <ref type="figure">17</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Piriform cortex</head><p><s>The most dorsal section where a clear band of cells of the piriform cortex is visible along the lateral part of each hemisphere (Figure <ref type="figure">18</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation of brainstem and ventral cortex</head><p><s>The most dorsal section where the brainstem and the ventral part of the cortex separate (Figure <ref type="figure">19</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ventral olfactory bulb</head><p><s>The most ventral section where the layers of the olfactory bulb are still visible (Figure <ref type="figure">20</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ventral hippocampus</head><p><s>The most ventral section where the hippocampal formation is still visible (Figure <ref type="figure">21</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optic chiasm</head><p><s>The most dorsal section where the optic chiasm becomes a band across the anterior part of the brain (Figure <ref type="figure">22</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pontine nuclei</head><p><s>The most dorsal section where the nuclei is seen anteriorly in the brain stem (Figure <ref type="figure">23</ref>)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Illustration of landmarks</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :Figure 2 :Figure</head><label>12</label><figDesc><div><p><s>Figure 1: Cell layers of olfactory bulb (red) / Anterior corpus callosum (green)</s></p></div></figDesc><graphic coords="4,104.90,117.78,385.50,269.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure</head><label></label><figDesc><div><p><s>Figure 1: Lateral hippocampus</s></p></div></figDesc><graphic coords="19,97.40,115.30,400.23,275.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure</head><label></label><figDesc><div><p><s>Figure 1: Superior colliculus (red) / Inferior colliculus (green)</s></p></div></figDesc><graphic coords="31,128.52,117.78,338.23,290.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="5,95.15,94.89,404.25,264.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="5,95.53,415.27,404.22,280.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="6,101.90,94.89,390.75,267.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="6,105.65,416.77,384.00,266.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="7,111.65,94.89,372.00,260.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="7,95.15,410.76,404.45,275.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="8,109.40,94.89,376.50,257.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="8,99.65,384.87,395.65,273.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="9,92.90,94.89,409.44,275.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="9,72.00,401.87,454.60,282.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="10,72.00,94.89,465.37,277.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="10,72.00,404.52,462.00,276.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="11,76.40,94.89,441.85,284.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="11,75.40,411.13,444.50,273.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="12,76.40,94.89,442.50,252.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="12,93.65,426.16,408.00,265.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="13,72.00,94.89,490.05,283.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="13,92.15,410.37,410.90,284.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="14,107.15,94.89,381.00,265.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="14,109.40,392.38,376.50,268.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="15,119.90,94.89,355.46,279.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="15,121.77,406.28,351.75,272.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="16,143.90,94.89,306.80,296.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="16,95.53,423.88,404.25,222.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="20,91.40,93.65,411.85,290.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="20,83.90,415.30,426.95,287.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="21,81.35,93.65,432.59,276.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="21,72.00,400.80,453.25,271.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="22,83.55,93.65,428.17,271.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="22,91.40,395.80,411.92,289.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="23,89.90,93.65,415.50,287.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="23,85.40,412.30,423.74,286.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="24,72.00,93.65,453.24,293.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="24,72.00,439.95,453.22,266.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="25,72.00,93.65,453.23,296.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="25,74.15,420.40,446.99,287.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="26,72.00,93.65,453.21,286.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="26,79.40,411.01,436.20,287.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="27,72.00,93.65,453.25,287.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="27,72.00,433.95,452.50,244.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="28,72.00,93.65,455.75,290.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="28,72.00,436.95,453.22,266.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="32,72.00,94.89,463.49,302.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="32,72.00,429.87,480.75,278.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="33,72.00,94.89,499.15,247.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="33,123.27,397.42,348.73,301.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="34,128.90,94.89,337.34,281.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="34,132.65,408.87,329.50,297.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="35,107.90,94.89,379.48,283.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="35,119.52,410.63,356.24,261.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="36,129.27,94.89,336.72,312.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="36,72.00,439.27,460.03,239.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="37,125.15,94.89,344.98,289.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="37,125.15,408.48,344.97,302.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="38,139.40,94.89,316.46,292.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="38,72.00,419.37,465.20,270.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="39,77.15,94.89,440.70,299.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="39,72.00,426.88,456.73,269.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="40,72.00,94.89,453.53,291.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="40,74.00,418.18,447.28,285.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="41,72.00,94.89,473.38,295.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="41,72.00,422.38,476.88,275.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p></p></div></figDesc><graphic coords="42,122.12,94.89,351.00,333.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc><div><p><s>. Atlas of normal rat brain cyto-and myeloarchitecture [Data set].</s><s>Human Brain Project Neuroinformatics Platform.</s><s>Sagittal and horizontal section images showing neuronal nuclei, calbindin and parvalbumin staining in the rat hippocampal region [Data set].</s><s>Human Brain Project Neuroinformatics Platform.</s><s>https://doi.org/10.25493/JQ8F-TNF</s><s>| View original dataset o The Allen mouse brain in situ hybridization database (https://mouse.brain-map.org/)</s></p></div></figDesc><table><row><cell>-Horizontal mouse brain images</cell></row><row><cell>o Yetman, M., Lillehaug, S., Bjaalie, J. G., Leergaard, T. B., &amp; Jankowsky, J. (2018). Neuropsin</cell></row><row><cell>tetracycline-transactivator expression: horizontal sections (case 2877) [Data set]. Human</cell></row><row><cell>Brain Project Neuroinformatics Platform. https://doi.org/10.25493/AYBB-BXV | View</cell></row><row><cell>original dataset</cell></row><row><cell>o Boccara, C., Kjonigsen, L., Hammer, I., Bjaalie, J. G., Leergaard, T. B., &amp; Witter, M. P.</cell></row></table><note><p><s>https://doi.org/10.25493/C63A-FEY</s><s>| View original dataset -Sagittal mouse brain images o Boccara, C., Kjonigsen, L., Hammer, I., Bjaalie, J. G., Leergaard, T. B., &amp; Witter, M. P. (2019).</s><s>(2019).</s><s>Sagittal and horizontal section images showing neuronal nuclei, calbindin and parvalbumin staining in the rat hippocampal region [Data set].</s><s>Human Brain Project Neuroinformatics Platform.</s><s>https://doi.org/10.25493/JQ8F-TNF</s><s>| View original dataset o Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain.</s><s>NeuroImage 97, 374-386.</s><s>DOI: 10.1016/j.neuroimage.2014.04.001</s></p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>
