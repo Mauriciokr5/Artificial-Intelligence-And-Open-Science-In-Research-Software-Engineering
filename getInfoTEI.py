@@ -2,9 +2,11 @@ import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 from wordcloud import WordCloud
 import glob
+import requests
+from pathlib import Path
 
 def get_file_names():
-    file_list = glob.glob("./xmls/*.xml")
+    file_list = glob.glob("./Files/PDFs/*.pdf")
     return file_list
 
 def join_paragraphs(soup):
@@ -23,10 +25,9 @@ def plot_cloud(file, unique_string):
     wordcloud = WordCloud(width = 1000, height = 500).generate(unique_string)
     plt.figure(figsize=(15,8))
     plt.imshow(wordcloud)
-    # plt.savefig("wordcloud-"+file+".png")
+    plt.savefig("./Files/output/"+file+".png")
     plt.axis("off")
-    plt.show()
-    plt.close()
+    plt.clf()
 
 def count_figures(soup):
     figures = soup.find_all("figure")
@@ -34,7 +35,7 @@ def count_figures(soup):
     
 def plot_number_figures_per_articule(files, figures_per_article):
     plt.bar(files, figures_per_article)
-    plt.show()
+    plt.savefig("./Files/output/barChart.png")
 
 def list_links(soup):
     links = soup.find_all("ptr")
@@ -49,17 +50,20 @@ def list_links(soup):
 
 def main():
     files = get_file_names()
+    files_names =[]
     figures_per_article = []
     for file in files:
-        
-        with open(file) as f:
-            soup = BeautifulSoup(f, "xml")
-        
-        plot_cloud(file, join_paragraphs(soup))
+        print("")
+        f = {'input': open(file, 'rb')}
+        response = requests.post('http://localhost:8070/api/processFulltextDocument', files=f)
+        soup = BeautifulSoup(response.content, "xml")
+        file_name=Path(file).stem
+        files_names.append(file_name)
+        plot_cloud(file_name, join_paragraphs(soup))
         figures_per_article.append(count_figures(soup))
         list_links(soup)
         
-    plot_number_figures_per_articule(files, figures_per_article)
+    plot_number_figures_per_articule(files_names, figures_per_article)
 
 if __name__ == "__main__":
     main()
