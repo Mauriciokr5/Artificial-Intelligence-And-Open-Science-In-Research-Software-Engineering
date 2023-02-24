@@ -1,10 +1,16 @@
 version: "4.13.1"
 services:
-  grobid:
+  grobid1:
     image: lfoppiano/grobid:0.7.2
     restart: always
     ports:
       - "8070:8070"
     environment:
       - GROBID__SERVICE__MAXTHREADPOOL=10
-    
+  grobid2:
+    image: lfoppiano/grobid:0.7.2
+    restart: always
+    ports:
+      - "8071:8070"
+    environment:
+      - GROBID__SERVICE__MAXTHREADPOOL=10
