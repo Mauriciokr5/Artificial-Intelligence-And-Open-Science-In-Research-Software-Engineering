@@ -28,12 +28,11 @@ jobs:
         conda update --yes conda
 
     - name: Create Conda environment
-      uses: conda-incubator/setup-conda@v2
-      with:
-        environment-file: environment.yml
+      run: conda env create -f environment.yml
+      
 
     - name: Activate Conda environment
-      run: conda activate test-env
+      run: conda activate iaca
 
     - name: Run tests
       run: python test_getInfoTEI.py
