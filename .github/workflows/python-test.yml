@@ -1,0 +1,39 @@
+name: Python Test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.9]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install Conda
+      run: |
+        wget -qO- https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh > miniconda.sh
+        bash miniconda.sh -b -p $HOME/miniconda
+        source "$HOME/miniconda/etc/profile.d/conda.sh"
+        conda update --yes conda
+
+    - name: Create Conda environment
+      uses: conda-incubator/setup-conda@v2
+      with:
+        environment-file: environment.yml
+
+    - name: Activate Conda environment
+      run: conda activate test-env
+
+    - name: Run tests
+      run: python test_getInfoTEI.py
