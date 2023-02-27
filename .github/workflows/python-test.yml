@@ -1,10 +1,10 @@
 name: Python Package Using Anaconda
 
-on: [push]
+on: [push,  pull_request]
 
 jobs:
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04.5
 
     steps:
     - uses: actions/checkout@v2

@@ -58,7 +58,7 @@ def handle_requests(f):
     except requests.exceptions.RequestException:
         try:
             print("Usando segundo contenedor")
-            response = requests.post('http://localhost:8071/api/processFulltextDocument', files=f)#https://kermitt2-grobid.hf.space/
+            response = requests.post('http://localhost:8070/api/processFulltextDocument', files=f)#https://kermitt2-grobid.hf.space/
             if response.status_code == 200:
                 print("respuesta 2do contenedor")
                 return response
