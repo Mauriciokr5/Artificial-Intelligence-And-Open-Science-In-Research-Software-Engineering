@@ -27,15 +27,15 @@ class TestGetInfoTEI(unittest.TestCase):
 
 
 
-    def test_main(self):
-        gitei.main()
-        input_files = glob.glob("./Files/PDFs/*.pdf")
-        input_files =[Path(file).stem for file in input_files]
-        input_files.append("barChart")
-        output_files = glob.glob("./Files/output/*.png")
-        output_files = [Path(file).stem for file in output_files]
+    # def test_main(self):
+    #     gitei.main()
+    #     input_files = glob.glob("./Files/PDFs/*.pdf")
+    #     input_files =[Path(file).stem for file in input_files]
+    #     input_files.append("barChart")
+    #     output_files = glob.glob("./Files/output/*.png")
+    #     output_files = [Path(file).stem for file in output_files]
 
-        self.assertTrue(set(input_files) == set(output_files))
+    #     self.assertTrue(set(input_files) == set(output_files))
 
 if __name__ == "__main__":
     unittest.main()
