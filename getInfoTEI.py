@@ -78,6 +78,7 @@ def main():
         f = {'input': open(file, 'rb')}
         
         response=handle_requests(f)
+        f['input'].close()
         if response:
             soup = BeautifulSoup(response.content, "xml")
             file_name=Path(file).stem

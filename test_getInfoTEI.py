@@ -13,11 +13,13 @@ class TestGetInfoTEI(unittest.TestCase):
     def test_handle_requests(self):
         f = {'input': open("./Files/test/CCRB.pdf", 'rb')}
         response = gitei.handle_requests(f)
+        f['input'].close()
         self.assertNotEqual(response, False)
 
     def test_count_figures(self):
         f = {'input': open("./Files/test/CCRB.pdf", 'rb')}
         response = gitei.handle_requests(f)
+        f['input'].close()
         soup = BeautifulSoup(response.content, "xml")
         figures = soup.find_all("figure")
         print(len(figures))
