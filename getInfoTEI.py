@@ -87,25 +87,6 @@ def main():
             plot_cloud(file_name, join_paragraphs(soup))
             figures_per_article.append(count_figures(soup))
             list_links(soup)
-        # except:
-        #     print("ALERTA: Grobid no logró procesar el archivo")
-        #     print('Esperando que el servidor reinicie...')
-        #     time.sleep(30)
-            
-                
-            
-        # try:
-        #     response = requests.post('http://localhost:8070/api/processFulltextDocument', files=f)
-        #     soup = BeautifulSoup(response.content, "xml")
-        #     print(soup.title.text)
-        #     file_name=Path(file).stem
-        #     files_names.append(file_name)
-        #     plot_cloud(file_name, join_paragraphs(soup))
-        #     figures_per_article.append(count_figures(soup))
-        #     list_links(soup)
-        # except requests.exceptions.ConnectionError as e:
-        #     # manejar el error de conexión
-        #     print("Ocurrió un error de conexión: ", e)
         
         
     plot_number_figures_per_articule(files_names, figures_per_article)

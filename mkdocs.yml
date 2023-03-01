@@ -1,0 +1,8 @@
+site_name: PDF-Analyzer
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Output: output.md
+theme:
+  name: material
