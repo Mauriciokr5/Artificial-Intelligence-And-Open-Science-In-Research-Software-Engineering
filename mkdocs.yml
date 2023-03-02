@@ -4,5 +4,3 @@ nav:
   - Install: install.md
   - Usage: usage.md
   - Output: output.md
-theme:
-  name: material
