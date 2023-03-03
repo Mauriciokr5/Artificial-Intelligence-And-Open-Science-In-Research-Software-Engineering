@@ -7,7 +7,7 @@ COPY environment.yml .
 RUN conda env create -f environment.yml
 
 # Make RUN commands use the new environment:
-SHELL ["conda", "run", "-n", "iaca", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "iaop", "/bin/bash", "-c"]
 
 # Demonstrate the environment is activated:
 # RUN echo "Make sure wordcloud is installed:"
@@ -15,4 +15,4 @@ SHELL ["conda", "run", "-n", "iaca", "/bin/bash", "-c"]
 
 # The code to run when container is started:
 COPY getInfoTEI.py .
-ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "iaca", "python", "getInfoTEI.py"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "iaop", "python", "getInfoTEI.py"]
