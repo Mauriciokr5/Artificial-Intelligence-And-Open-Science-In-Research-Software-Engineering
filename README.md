@@ -1,5 +1,5 @@
 # PDF-Analyzer
-##### A project for the subject of artificial intelligence and open science in research software engineering.
+**A project for the subject of artificial intelligence and open science in research software engineering.**
 
 [![DOI](https://zenodo.org/badge/597722448.svg)](https://zenodo.org/badge/latestdoi/597722448)
 
