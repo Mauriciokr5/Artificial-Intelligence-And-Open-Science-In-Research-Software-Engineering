@@ -1,5 +1,6 @@
 # Explanation
-<br></br>
+### Dataflow
+![dataflow](https://github.com/Mauriciokr5/PDF-Analyzer/blob/main/image.jpg?raw=true)
 ***
 ### Task: Draw a keyword cloud based on the abstract information
 
