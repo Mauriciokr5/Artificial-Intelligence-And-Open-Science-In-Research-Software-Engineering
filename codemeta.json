@@ -2,28 +2,43 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "license": "https://spdx.org/licenses/GPL-3.0",
-    "codeRepository": "git+https://github.com/Mauriciokr5/Artificial-Intelligence-And-Open-Science-In-Research-Software-Engineering",
+    "codeRepository": "git+https://github.com/Mauriciokr5/PDF-Analyzer",
     "dateCreated": "2023-02-05",
     "datePublished": "2023-02-12",
-    "dateModified": "2023-02-12",
-    "downloadUrl": "https://github.com/Mauriciokr5/Artificial-Intelligence-And-Open-Science-In-Research-Software-Engineering/archive/refs/tags/v0.0.1.tar.gz",
-    "name": "Artificial Intelligence And Open Science In Research Software Engineering",
-    "version": "0.0.1",
+    "dateModified": "2023-03-05",
+    "downloadUrl": "https://github.com/Mauriciokr5/PDF-Analyzer",
+    "name": "PDF-Analyzer",
+    "version": "1.0.0",
     "identifier": "10.5281/zenodo.7633222",
-    "description": "Repository for the delivery of AI and Open Science projects.",
+    "description": "PDF-Analyzer automatically extract metadata and text from scientific papers in PDF format to get key words, links and compare the number of figures in each paper.",
     "applicationCategory": "Software engineering",
-    "releaseNotes": "Added the file holaMundo.py that prints \"buenas!\" in terminal.",
+    "releaseNotes": "Delivery version",
+    "developmentStatus": "active",
+    "referencePublication": "https://doi.org/10.5281/zenodo.7633221",
     "keywords": [
-        "artificial intelligence",
         "open science",
+        "artificial intelligence",
+        "artificial",
+        "intelligence",
+        "IA",
         "AI",
-        "IA"
+        "PDF",
+        "analyzer",
+        "analysis",
+        "GROBID",
+        "wordcloud",
+        "links",
+        "count",
+        "figures"
     ],
     "programmingLanguage": [
         "Python 3"
     ],
     "operatingSystem": [
         "WSL"
+    ],
+    "softwareRequirements": [
+        "Miniconda or Anaconda or Docker"
     ],
     "author": [
         {

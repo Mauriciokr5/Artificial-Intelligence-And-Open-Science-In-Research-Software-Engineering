@@ -2,9 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: >-
-  Artificial-Intelligence And Open Science In Research
-  Software Engineering
+title: PDF-Analyzer
 message: Please cite this software using these metadata.
 type: software
 authors:
@@ -15,11 +13,13 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.7633222
-repository-code: >-
-  https://github.com/Mauriciokr5/Artificial-Intelligence-And-Open-Science-In-Research-Software-Engineering
+repository-code: 'https://github.com/Mauriciokr5/PDF-Analyzer/tree/main'
+url: 'https://pdfanalyzer.readthedocs.io/en/latest/'
 abstract: >-
-  Repository for the delivery of AI and Open Science
-  projects.
+  The aim of PDF-Analyzer is to help automatically extract
+  metadata and text from scientific papers in PDF format to
+  get key words, links and compare the number of figures in
+  each paper.
 keywords:
   - open science
   - artificial intelligence
@@ -27,7 +27,15 @@ keywords:
   - intelligence
   - IA
   - AI
+  - PDF
+  - analyzer
+  - analysis
+  - GROBID
+  - wordcloud
+  - links
+  - count
+  - figures
 license: GPL-3.0
-commit: Hello World
-version: 0.0.1
-date-released: '2023-02-12'
+commit: Delivery version
+version: 1.0.0
+date-released: '2023-03-05'
