@@ -12,7 +12,7 @@ authors:
     affiliation: Universidad Poitécnica de Madrid
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.7633222
+    value: 10.5281/zenodo.7699126
 repository-code: 'https://github.com/Mauriciokr5/PDF-Analyzer/tree/main'
 url: 'https://pdfanalyzer.readthedocs.io/en/latest/'
 abstract: >-
