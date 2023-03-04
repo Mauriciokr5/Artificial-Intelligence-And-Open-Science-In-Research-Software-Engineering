@@ -1,5 +1,8 @@
 # Explanation
 ***
+### Dataflow
+![dataflow](https://github.com/Mauriciokr5/PDF-Analyzer/blob/main/docs/Dataflow.png?raw=true)
+***
 ### Task: Draw a keyword cloud based on the abstract information
 
 I join all texts in p tags into unique_string and then use it in the following function to create a word cloud from the most frequent words in it.
@@ -7,7 +10,6 @@ I join all texts in p tags into unique_string and then use it in the following f
 WordCloud(width = 1000, height = 500).generate(unique_string)
 ```
 After that, just plot with the matplotlib library.
-<br></br>
 ***
 ### Task: Create a visualization showing the number of figures per article.
 
@@ -23,8 +25,6 @@ def plot_number_figures_per_articule(files, figures_per_article):
     plt.bar(files, figures_per_article)
     plt.show()
 ```
-<br></br>
-
 
 ***
 ### Task: Create a list of the links found in each paper
@@ -41,5 +41,4 @@ def list_links(soup):
     print("----------------------------------------------------------------")
     print("\n\n")
 ```
-<br></br>
 ***
