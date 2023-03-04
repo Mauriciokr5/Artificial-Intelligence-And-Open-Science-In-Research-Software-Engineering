@@ -1,5 +1,4 @@
 # Explanation
-<br></br>
 ***
 ### Task: Draw a keyword cloud based on the abstract information
 
