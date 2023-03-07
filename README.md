@@ -18,11 +18,18 @@ Given a set of 10 (or less) PDF file, PDF-Analyzer will do the following tasks:
 ##### Documentation: https://pdfanalyzer.readthedocs.io/en/latest/
 ***
 ## Installing PDF-Analyzer
+### Requirements
+
+- Docker-20.10.20 or higher 
+or
+- Miniconda 3 ([Instructions](https://pdfanalyzer.readthedocs.io/en/latest/install/#conda))
+
+
 To install PDF-Analyzer just clone this GitHub repository:
 ```
 git clone https://github.com/Mauriciokr5/PDF-Analyzer.git
 ```
-This project is easier to use if you have Docker. If you don't have it, see the documentation [here](https://pdfanalyzer.readthedocs.io/en/latest/) to prepare a conda environment to run it.
+This project is easier to use if you have Docker. If you don't have it, see the documentation [here](https://pdfanalyzer.readthedocs.io/en/latest/install/#conda) to prepare a **conda** environment to run it.
 
 ***
 ## Using PDF-Analyzer
@@ -33,4 +40,10 @@ With docker installed and running, go to the root path of the project and execut
 docker compose up
 ```
 It is going to take some minutes to analyze all files. 
+
 All output files are going to be store in ```./Files/output/```.
+
+Once it finish, execute the command below to delete all the containers.
+```
+docker compose down
+```

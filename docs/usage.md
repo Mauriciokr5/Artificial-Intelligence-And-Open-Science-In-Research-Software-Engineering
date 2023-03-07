@@ -30,3 +30,14 @@ python getInfoTEI.py
 It is going to take some minutes to analyze all files. 
 
 All output files are going to be store in ```./Files/output/```.
+
+## Other
+Execute the code with python:
+```
+python getInfoTEI.py
+```
+It is going to take some minutes to analyze all files. 
+
+All output files are going to be store in ```./Files/output/```.
+
+**Note:** This program uses two versions of GROBID, one in the cloud and the other in Docker as a backup, so if the cloud version is not available, the program won't do it either, since the backup is not running.

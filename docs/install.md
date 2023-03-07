@@ -19,4 +19,13 @@ conda activate iaop
 ```
 Now it is ready to use it.
 
+## Other 
+This program requires install:
+  - python3
+  - beautifulsoup4=4.11.1
+  - lxml=4.9.1
+  - matplotlib=3.7.0
+  - requests=2.28.1
+  - wordcloud=1.8.2.2
+
 
